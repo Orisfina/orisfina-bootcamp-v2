@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           {/* Courses Offered*/}
            <section className="container bc-primary-color">
                 <h2 className='primary__text primary__text2 t-center white' >Courses Offered</h2>
-                <p className='tertiary-header t-center pb-l white'>Don't just watch, choose a skill for yourself</p>
+                <p className='tertiary-header t-center pb-l white'>Don&#39;t just watch, choose a skill for yourself</p>
                 <div className="grid2">
                     <div className="text-section text-section__courses">
                          <div className="grid1-6 ">
@@ -229,7 +229,7 @@ const Home: NextPage = () => {
                          Web Design Business
                     </h3>
                     <p className='blog__intro pb-s'>
-                    Here's how to start a freelance web design business with no experience from home (or anywhere). A 4,300+ word article with actionable tips
+                    Here&#39;s how to start a freelance web design business with no experience from home (or anywhere). A 4,300+ word article with actionable tips
                     </p>
                     <Link href='https://studywebdevelopment.com/start-freelance-web-design-business.html'>
                       <a className='btn blog_btn'  target='_blank' rel="noreferrer">Read Article</a>
