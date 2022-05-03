@@ -36,7 +36,7 @@ import Footer from '../../components/Footer'
                          Web Design Business
                     </h3>
                     <p className='blog__intro pb-s'>
-                    Here's how to start a freelance web design business with no experience from home (or anywhere). A 4,300+ word article with actionable tips
+                    Here&apos;s how to start a freelance web design business with no experience from home (or anywhere). A 4,300+ word article with actionable tips
                     </p>
                     <Link href='https://studywebdevelopment.com/start-freelance-web-design-business.html'>
                       <a className='btn blog_btn'  target='_blank' rel="noreferrer">Read Article</a> 

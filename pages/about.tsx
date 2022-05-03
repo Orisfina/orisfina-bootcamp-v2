@@ -15,7 +15,7 @@ const About:NextPage = () => {
             <h2 className="primary__text primary__text2 pb-l t-center">About Orisfina Computer Institute</h2>
             <p>
             Orisfina Bootcamp is one of the fastest growing bootcamp in Auchi, Edo State Nigeria which provides you with all the mentorship from our Tutors that will take you from a complete begineer to an Advanced level. 
-            Since Orisfina Bootcamp started in 2019, we've consistently been regarded as one of the best coding bootcamps in Edo State by students and employers.
+            Since Orisfina Bootcamp started in 2019, we&apos;ve consistently been regarded as one of the best coding bootcamps in Edo State by students and employers.
             </p>
             <p> 
             Here at Orisfina Bootcamp, our syllabus have ben structured to suit you no matter your current level (complete Novice or intermediate). Our Syllabus are purely 20% Theory and 80% Practical. We believe the goal of many coding bootcamp attendees is to transition into a career in web development. This is the reason why our Syllabus are tailored to helping you become one in just 12 Weeks

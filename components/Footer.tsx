@@ -73,7 +73,7 @@ import Link from 'next/link'
 				<div className='about'>
 					<h6 className='subFooter__heading p-b-small uppercase'>About us</h6>
 					<p className='about-us'>Orisfina Bootcamp is one of the fastest growing bootcamp in Auchi, Edo State Nigeria which provides you with all the mentorship from our Tutors that will take you from a complete begineer to an Advanced level. 
-                    Since Orisfina Bootcamp started in 2019, we've consistently been regarded as one of the best coding bootcamps in Edo State by students and employers.</p>
+                    Since Orisfina Bootcamp started in 2019, we&apos;ve consistently been regarded as one of the best coding bootcamps in Edo State by students and employers.</p>
 				</div>
 			</div>
 		</footer>
