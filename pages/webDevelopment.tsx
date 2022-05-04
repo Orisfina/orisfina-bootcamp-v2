@@ -44,8 +44,8 @@ const WebDevelopment: NextPage = () => {
             </li>
             <li>- Optimizing page load time.</li>
         </ul>
-        <Button link='/register' cName='course_btn p-xy mr-s'>Apply Now! </Button>
-         <Button link='/blog/frontend-web-development-career' cName='course_btn p-xy '>MORE ABOUT  FRONTEND ROLE</Button>
+        <Button link='/register' cName='course_btn p-xy mr-s block-on-mobile'>Apply Now! </Button>
+         <Button link='/blog/how-to-become-a-frontend-developer-as-a-beginner' cName='course_btn p-xy block-on-mobile '>MORE ABOUT  FRONTEND ROLE</Button>
     
         <h2 className='subHeading mt-l'>What is the Back-End Developer role ?</h2>
         <p className='pt-s'>

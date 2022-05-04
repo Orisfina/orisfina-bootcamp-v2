@@ -57,7 +57,7 @@ import Link from 'next/link'
 					<h6 className="subFooter__heading p-b-small uppercase">Career path</h6>
 					<ul>
 						<li className="subFooter__list">
-                        <Link href='/blog/frontend-web-development-career'><a className='subFooter__link'>&gt; Frontend Web Development</a></Link>
+                        <Link href='/blog/how-to-become-a-frontend-developer-as-a-beginner'><a className='subFooter__link'>&gt; Frontend Web Development</a></Link>
 						</li>
 						<li className="subFooter__list">
                             <Link href='/blog/backend-web-development-career' ><a className='subFooter__link'> &gt; Backend Web Development</a></Link>

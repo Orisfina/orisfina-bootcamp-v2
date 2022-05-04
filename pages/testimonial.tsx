@@ -51,8 +51,8 @@ const Testimonial:NextPage = () => {
                     <div className="carousel-item active">
                         <div className="testimonial4_slide grid1-2">
                             <Image src={testimonialImg2 } className="img-circle img-responsive" 
-                            height={136}
-                            width={136}
+                            height='136px'
+                            width='136px'
                             alt='testisfier' />
                             <div>
                             <p className='t-justify'>No place like Orisfina Bootcamp. From the very first day i registered till date, i have never had a reason to regret my actions. Irrespective of my zero background in coding, I got tutored in such a way that i felt so so easy to grasp. Right now am creating Softwares i never dreamt of few months ago.</p>

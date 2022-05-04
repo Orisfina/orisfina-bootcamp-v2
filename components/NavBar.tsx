@@ -19,7 +19,7 @@ const NavBar = () => {
         <>
     <div className="nav-wrapper">
   <nav className="navbar">
-     <Image src={logoImg} alt="Company Logo" /> 
+     <Image src={logoImg} alt="Company Logo" className='logo'/> 
      <div className="menu-toggle" id="mobile-menu" onClick={handleToggle}>
           <span className="bar"></span>
           <span className="bar"></span>

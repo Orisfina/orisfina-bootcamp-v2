@@ -191,13 +191,15 @@ const Home: NextPage = () => {
                          </ul>
                          <Button cName='btn btn__link__red flex mt-m'  link='/register'>Start Free Trial</Button>
                      </div>
-                     <div className="flex col center hide-on-mobile ">
-                         <div className='flex-end'>
-                              <Image src={online} alt='Becoming a web developer has never been so easy in the past like this. Get all you need to know at Orisfina bootcamp and become a web developer easily' className='doKnowImg '/>
+                     <div className="flex col center hide-on-mobile-flex ">
+                         <div className="minusRem">
+                              <Image src={online} alt='Becoming a web developer has never been so easy in the past like this. Get all you need to know at Orisfina bootcamp and become a web developer easily'   className='doKnowImg '/>
                          </div>
-                         <div className='flex-end'>
+                              
+                         
+                         
                               <Image src={onsite} alt='Becoming a web developer has never been so easy in the past like this. Get all you need to know at Orisfina bootcamp and become a web developer easily' className='doKnowImg '/>
-                    </div>
+                  
                      </div>
                      
                </div>
