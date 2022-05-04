@@ -7,7 +7,7 @@ class MyDocument extends Document {
       <Html lang='en'>
         <Head>
             
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossOrigin="anonymous" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
