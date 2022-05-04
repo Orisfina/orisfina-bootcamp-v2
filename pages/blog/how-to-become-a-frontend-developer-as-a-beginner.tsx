@@ -11,17 +11,19 @@ const frontendDevelopment:NextPage = () => {
   return (
     <>
     <Head>
-    <meta name="description" content="Orisfina is a Bootcamp in Auchi offers front-end development courses which will get you started" />
-    <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria, front end developer salary in nigeria, how to become a front-end developer,how to become a front end developer in 3 months,how to become a frontend developer ,front end developer jobs in nigeria,why become a front end developer,can i become a front end developer,what to learn to become a front end developer,what is needed to become a front end developer,why become a front end developer "></meta>
+        <title>Roadmoap to becoming a Front-end Web Developer</title>
+        <meta name="description" content="Orisfina is a Bootcamp in Auchi offers front-end development courses which will get you started" />
+        <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria, front end developer salary in nigeria, how to become a front-end developer,how to become a front end developer in 3 months,how to become a frontend developer ,front end developer jobs in nigeria,why become a front end developer,can i become a front end developer,what to learn to become a front end developer,what is needed to become a front end developer,why become a front end developer " />
+        <link rel="icon" href="/favicon.ico" />
     </Head>
     
         <NavBar />
         <main>
             <article>
                <header className={styles.titleHeader}>
-                <h1 className={styles.title}>Everything Beginners needs to know about Frontend Development</h1>
+                <h1 className={styles.title}>Beginners guide on how to become a Frontend web developer from scratch</h1>
                     <p className={styles.articleDetails}>
-                        <span>By <Link href='https://joshuaoyewole.com.ng'><a className={styles.posterName}>Joshua Oyewole</a></Link> || Posted on 5 May, 2022</span>
+                        <span>By <Link href='https://joshuaoyewole.com.ng'><a className={`${styles.posterName} ${styles.link}`}>Joshua Oyewole</a></Link> || Posted on 5 May, 2022</span>
                     </p>
                </header>
             <div className={styles.container}>

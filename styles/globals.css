@@ -493,12 +493,12 @@ h2 span {
     font-size: 3rem;
     font-weight: 600;
     line-height: 1.2;
-    padding-top: 13rem;
     padding-bottom: 2rem;
     color: #EEF7F8; }
     @media (min-width: 23.88em) {
       .slideshow__title {
-        font-size: 3.9rem; } }
+        font-size: 3.9rem;
+        padding-top: 13rem; } }
     @media (min-width: 37.5em) {
       .slideshow__title {
         font-size: 5rem; } }
@@ -1463,7 +1463,7 @@ aside {
   justify-content: center;
   align-items: center;
   color: #EEF7F8;
-  background-image: url("../public/images/apply-now.png");
+  background-image: url("../public/images/apply-now.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1592,6 +1592,17 @@ select {
   justify-content: center;
   align-items: center; }
 
+  .blog__title{
+    line-height: 2.3rem;
+    padding-bottom: 1.2rem;
+    text-align: center;
+  }
+  /* .blog__intro{
+    text-align: center;
+  }
+  .margin-auto{
+    margin: 0 auto;
+  } */
   @media (max-width:375px) {
     .course_btn {
       display: inline-block;

@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import ProjectBox from '../components/ProjectBox';
-import online from '../public/images/online.svg';
-import onsite from '../public/images/onsite.svg';
+import online from '../public/images/online.jpg';
+import onsite from '../public/images/onsite.jpg';
 import finance from '../public/images/finance.6ef17dc7.svg'
 import location from '../public/images/location.5d74dd0a.svg'
 import SlideShow from '../components/SlideShow';
@@ -21,10 +21,9 @@ const Home: NextPage = () => {
   <>
     <Head>
       <title>Learn Web Development from Scratch with Orisfina | OCI</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="Orisfina is a Bootcamp in Auchi with courses in web development, graphic design, and mobile app development designed to take you from scratch to professional" />
       <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, learn graphic design, learn app development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria" />
-      <link rel="icon" href="/favicon.ico" />
+      
     </Head>
     <NavBar />
     <div className="header">
@@ -103,7 +102,7 @@ const Home: NextPage = () => {
                               <p className='t-left'>
                                    A front-end developer links together the world of design and technology, packaging up the utility of the back end in an inviting way for users to interact with. They take website design files and convert them into HTML, JavaScript (JS) and/or CSS code — the core elements of front-end development. 
                               </p>
-                              <Button cName='btn blog_btn inline-block' link='/blog/frontend-web-development-career'>Read More</Button> 
+                              <Button cName='btn blog_btn inline-block' link='/blog/how-to-become-a-frontend-developer-as-a-beginner'>Read More</Button> 
                          </div>
 
                          </div>   
@@ -220,9 +219,12 @@ const Home: NextPage = () => {
                     <p className='blog__intro pb-s'>
                     How to build a winning Portfolio Website as a Freelance Developer. All you need to know.
                     </p>
-                    <Link href='https://studywebdevelopment.com/portfolio-tips-freelance-developer.html' >
-                      <a className='btn blog_btn'  target='_blank' rel="noreferrer">Read Article</a>
+                    <div className="margin-auto">
+                         <Link href='https://studywebdevelopment.com/portfolio-tips-freelance-developer.html' >
+                         <a className='btn blog_btn' target='_blank' rel="noreferrer">Read Article</a>
                     </Link>
+                    </div>
+                    
                </div>
                <div className='blog'>
                     <Image className='blog__img' src={blogImg} alt='how to start freelancing' />
@@ -233,9 +235,12 @@ const Home: NextPage = () => {
                     <p className='blog__intro pb-s'>
                     Here&#39;s how to start a freelance web design business with no experience from home (or anywhere). A 4,300+ word article with actionable tips
                     </p>
-                    <Link href='https://studywebdevelopment.com/start-freelance-web-design-business.html'>
-                      <a className='btn blog_btn'  target='_blank' rel="noreferrer">Read Article</a>
+                    <div className="margin-auto">
+                         <Link href='https://studywebdevelopment.com/start-freelance-web-design-business.html'>
+                         <a className='btn blog_btn'  target='_blank' rel="noreferrer">Read Article</a>
                     </Link>
+                    </div>
+                    
                      
                </div>
                <div className='blog'>
@@ -246,9 +251,12 @@ const Home: NextPage = () => {
                     <p className='blog__intro pb-s'>
                     A detailed guide on how to become a successful freelance web developer as a beginner in 2022 and beyond. All you need to know...
                     </p>
-                    <Link href='https://studywebdevelopment.com/how-to-start-freelancing-as-developer.html' >
-                      <a target='_blank' rel="noreferrer" className='btn blog_btn'>Read Article</a>
-                    </Link>
+                    <div className="margin-auto">
+                         <Link href='https://studywebdevelopment.com/how-to-start-freelancing-as-developer.html' >
+                              <a target='_blank' rel="noreferrer" className='btn blog_btn'>Read Article</a>
+                    </Link>   
+                    </div>
+                   
                </div>
           </div>
           </section>
