@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Head from 'next/head';
 import Button from '../components/Button';
 import SlideshowShort from '../components/SlideshowShort';
 import frontend from '../public/images/suprise.png'
@@ -10,6 +11,11 @@ import NavBar from '../components/NavBar';
 const graphicDesignCareer: NextPage = () => {
     return (
         <>
+        <Head>
+            <title>Graphic Design Career Path | Orisfina Computer Instiute</title>
+            <meta name="description" content="What you need to know to become a graphic designer" />
+            <meta name="keywords" content="graphic design training centers in Auchi Edo State, graphic design training schools in Auchi Edo State" />
+          </Head>
         <NavBar />
            <SlideshowShort title='GRAPHIC DESIGN'  color1='FRONTEND' color2='BACKEND' text1='AND' text2='TRAINING AVAILABLE' />
            <main className='container-large'>

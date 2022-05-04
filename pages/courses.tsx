@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import Link from 'next/link'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
@@ -8,6 +9,11 @@ import SlideshowShort from '../components/SlideshowShort'
 const courses: NextPage =() => {
      return (
           <>
+          <Head>
+            <title>Our Course | Orisfina Computer Instiute</title>
+            <meta name="description" content="Browse through our array of I.T courses designed to help transform you into an I.T professional" />
+            <meta name="keywords" content="courses offered at orisfina computer institute, web development training at orisfina computer institute, graphic design training at orisfina computer institute, computer training at orisfina computer institute" />
+          </Head>
           <NavBar />
              <SlideshowShort title='Our Courses' color1='ONLINE' color2='ONSITE' text1='AND' text2='TRAINING' />
              <main className='course-section container'>

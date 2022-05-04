@@ -23,9 +23,9 @@ const Testimonial:NextPage = () => {
             </p>
         </main> */}
         <section className="testimonial t-center">
-        <h2 className=" primary__text white-heading">
+        <h1 className=" primary__text white-heading">
                 Testimonial
-            </h2>
+            </h1>
             <div className="grid2 grid2__collapse">
             <div id="testimonial4 " className="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
              

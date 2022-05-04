@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
@@ -8,6 +9,11 @@ import signup from '../public/images/signup.svg'
  const register:NextPage = () => {
   return (
     <>
+    <Head>
+            <title>Registration Portal | Orisfina Computer Instiute</title>
+            <meta name="description" content="Enrol now for the upcoming bootcamp training on web development, graphic design @ Orisfina computer institute" />
+            <meta name="keywords" content="registration for free web design training" />
+          </Head>
     <NavBar />
     <SlideshowShort title='Registration Form' color1='KINDLY FILL THE FORM WITH THE APPROPRIATE DETAILS'/> 
     <main className='course-registration grid21 container mb-l' >

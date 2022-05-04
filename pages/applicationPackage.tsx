@@ -6,10 +6,16 @@ import backend from '../public/images/backend-girl.png'
 import type { NextPage } from 'next';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
+import Head from 'next/head';
 
 const applicationPackage: NextPage = () => {
     return (
         <>
+        <Head>
+            <title>Application Package Course | Orisfina Computer Instiute</title>
+            <meta name="description" content="All you need to get started as a Computer literate. Join hundreds of others now" />
+            <meta name="keywords" content="Application Package, I.T training in edo state" />
+          </Head>
         <NavBar />
            <SlideshowShort title='APPLICATION PACKAGE'  color1='FRONTEND' color2='BACKEND' text1='AND' text2='TRAINING AVAILABLE' />
            <main className='container-large'>

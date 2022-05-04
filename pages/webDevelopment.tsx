@@ -6,10 +6,16 @@ import backend from '../public/images/backend-girl.png'
 import type { NextPage } from 'next';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
+import Head from 'next/head';
 
 const WebDevelopment: NextPage = () => {
     return (
         <>
+        <Head>
+            <title>Web Development Course | Orisfina Computer Instiute</title>
+            <meta name="description" content="All you need to get started as a web developer. Join hundreds of others now" />
+            <meta name="keywords" content="Web Development" />
+          </Head>
         <NavBar />
            <SlideshowShort title='WEB DESIGN'  color1='FRONTEND' color2='BACKEND' text1='AND' text2='TRAINING AVAILABLE' />
            <main className='container-large'>

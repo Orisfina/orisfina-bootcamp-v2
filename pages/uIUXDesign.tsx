@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Head from 'next/head';
 import Button from '../components/Button';
 import SlideshowShort from '../components/SlideshowShort';
 import frontend from '../public/images/suprise.png'
@@ -10,6 +11,11 @@ import NavBar from '../components/NavBar';
 const uIUXDesign: NextPage = () => {
     return (
         <>
+        <Head>
+            <title>UI/UX Design Career Path | Orisfina Computer Instiute</title>
+            <meta name="description" content="What you need to know to become a UI/UX Designer. Enrol now at Orisfina Computer Institute" />
+            <meta name="keywords" content="UI/UX design training centers in Auchi Edo State, UI/UX design training schools in Auchi Edo State" />
+          </Head>
         <NavBar />
            <SlideshowShort title='UI/UX DESIGN'  color1='FRONTEND' color2='BACKEND' text1='AND' text2='TRAINING AVAILABLE' />
            <main className='container-large'>

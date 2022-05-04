@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import React from 'react'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
@@ -8,6 +9,12 @@ import SlideshowShort from '../components/SlideshowShort'
 const About:NextPage = () => {
      return (
           <>
+          <Head>
+            <title>About Page | Orisfina Computer Instiute</title>
+            <meta name="description" content="What you need to know about orisfina computer institute in Auchi, Edo State Nigeria" />
+            <meta name="keywords" content="about orisfina computer institute, bootcamp in Auchi Edo state" />
+          </Head>
+          
         <NavBar />
         <SlideshowShort title='ABOUT US'  color1=' WHO WE' color2='ARE'/> 
 
