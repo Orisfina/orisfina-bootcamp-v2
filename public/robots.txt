@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://oci-v2.netlify.app/sitemap.xml
+Sitemap: https://www.oci-v2.netlify.app/sitemap.xml

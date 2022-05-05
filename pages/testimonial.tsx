@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import Image from 'next/image'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
@@ -9,6 +10,11 @@ import testimonialImg2 from '../public/images/testifier.jpg'
 const Testimonial:NextPage = () => {
     return (
         <>
+        <Head>
+            <title>Testimonials | Orisfina Computer Instiute</title>
+            <meta name="description" content="Read what our past students are saying about us. Take a step now and Enrol in any of our upcoming bootcamp" />
+            <meta name="keywords" content="Testimonial page of Orisfina Computer Institute" />
+          </Head>
         <NavBar />
         {/* <SlideshowShort title='TESTIMONIAL'  color1=' READ WHAT PEOPLE ARE SAYING ABOUT US' /> 
 

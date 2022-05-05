@@ -21,7 +21,7 @@ import signup from '../public/images/signup.svg'
            <Image src={signup} alt='Signup on Orisfina Bootcamp' width='' height='' />
          </div>
          <div className='reg-form'>
-              <h1 className='course-header t-center mb-m'>Signup to Orisfina Bootcamp</h1>
+              <h2 className='course-header t-center mb-m'>Signup to Orisfina Bootcamp</h2>
               <form name='Registration Form' method='POST' action='/success'>
               <input type="hidden" name="form-name" value="Registration Form" />
                    <div className='form-group'>

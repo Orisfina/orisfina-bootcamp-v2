@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import blogImg from '../../public/images/how-to-start-freelancing-developer.jpg'
 import blogImg2 from '../../public/images/portfolio-website-tips-freelance-developer.jpg'
 import blogImg3 from '../../public/images/start-freelance-web-design-business.jpg'
@@ -11,6 +12,11 @@ import Footer from '../../components/Footer'
  const index:NextPage = () => {
   return (
     <>
+    <Head>
+            <title>Blog  | Orisfina Computer Instiute</title>
+            <meta name="description" content="Read our latest articles written to help you get started with any issues relating to starting a career" />
+            <meta name="keywords" content="Blog page of Orisfina Computer Institute" />
+          </Head>
         <NavBar />
           <SlideshowShort title='BLOG'/> 
           <section className='container blog'>
