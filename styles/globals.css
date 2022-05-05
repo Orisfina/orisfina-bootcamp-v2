@@ -230,7 +230,7 @@ h2 span {
   justify-content: space-between; }
 
 .white {
-  color: #EEF7F8; }
+  color: #EEF7F8 !important; }
 
 .perfect-center {
   justify-content: center !important;

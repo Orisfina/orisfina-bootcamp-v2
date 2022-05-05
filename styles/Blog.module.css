@@ -10,6 +10,13 @@
     line-height: 3rem;
     color: #22242b
 }
+.tertiaryHeader{
+    margin: 1.5rem 0;
+    font-family: 'Roboto';
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #22242b
+}
 .titleHeader{
     background-image: url('../public/images/header-img2-small.png');
     background-repeat: no-repeat;
@@ -29,17 +36,19 @@
     font-family: 'roboto';
     font-size: 2rem;
 }
-@media (min-width:375px) {
-    .title{
-        line-height: 3.5rem;
-        font-size: 2.8rem;
-    }
+
+.table{
+    line-height: 2rem;
+    width: 100%;
+    text-align: center;
 }
-@media (min-width:413px) {
-    .title{
-        font-size: 3rem;
-    }
+/* .tableHead{
+    padding: 3rem 1rem;
+} */
+.tableData{
+    padding: 0rem 1rem;
 }
+
 .articleDetails{
     text-align: center;
     padding: 1rem 0;
@@ -50,16 +59,33 @@
 .paragraph{
     color: #2F333E;
     line-height: 2.78rem;
+    padding: 1rem 0;
 }
 .link{
+    color:#2F333E;
     text-decoration: none;
     border-bottom: 1px solid rgba(241,96,89,1);
 }
-.link:hover{
+.posterlink{
+    color: #fff;
+}
+.link:hover,.posterlink:hover{
     color: rgb(231, 143, 139);
-  
 }
 /* MEDIA QUERIES */
+@media (min-width:375px) {
+    .title{
+        line-height: 3.5rem;
+        font-size: 2.8rem;
+    }
+        .tableData{
+            padding: .6rem 1rem;
+        }    }
+@media (min-width:413px) {
+    .title{
+        font-size: 3rem;
+    }
+}
 @media (min-width:1200px) {
     .container{
         width: 60%;
@@ -76,8 +102,16 @@
         font-family: 'Roboto';
         font-size: 3rem;
     }
+    .tertiaryHeader{
+        margin: 5rem 0 1.5rem 0;
+        font-size: 2.3rem;
+    }
     .paragraph{
         line-height: 3.5rem;
+    }
+    .table{
+        width: 80%;
+        line-height: 2.5rem;
     }
 }
 @media (min-width:1800px) {

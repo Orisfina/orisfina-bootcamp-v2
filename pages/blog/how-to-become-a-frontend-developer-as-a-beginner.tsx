@@ -23,7 +23,7 @@ const frontendDevelopment:NextPage = () => {
                <header className={styles.titleHeader}>
                 <h1 className={styles.title}>Beginners guide on how to become a Frontend web developer from scratch</h1>
                     <p className={styles.articleDetails}>
-                        <span>By <Link href='https://joshuaoyewole.com.ng'><a className={`${styles.posterName} ${styles.link}`}>Joshua Oyewole</a></Link> || Posted on 5 May, 2022</span>
+                        <span>By <Link href='https://joshuaoyewole.com.ng'><a className={`${styles.posterName} ${styles.posterlink}`}>Joshua Oyewole</a></Link> || Posted on 5 May, 2022</span>
                     </p>
                </header>
             <div className={styles.container}>
@@ -59,7 +59,7 @@ const frontendDevelopment:NextPage = () => {
                     Therefore, being a front-end developers presents you with a whole lots of Job opportunities.
                     You can choose from being a <b>freelencer web developer</b> and dictates your own terms as regards to : 
                 </p>
-                <ul>
+                <ul className={styles.paragraph}>
                     <li>When to work</li>
                     <li>Where to work (Home, office, or even in a bar</li>
                     <li>How much you choose to charge</li>
@@ -69,14 +69,89 @@ const frontendDevelopment:NextPage = () => {
                     If you are lover of 9 -5 Job or a team kind, you can decide to apply to companies interested in hiring you and grow our career.
                 </p>
                 <p className={styles.paragraph}>
-                    Being a front-end web developer comes with a whole lots of Job opportunity which an ordinary university or polytechnic certificate cannot provide.
+                    Being a front-end web developer comes with a whole lots of Job opportunities. <abbr title="Information Technology">I.T</abbr> is a growing field and this is only just the beginner.
                 </p>
-                <p className={styles.paragraph}>
-                    <abbr title="Information Technology">I.T</abbr> is a growing field and this is only just the beginner.
-                </p>
+                   
+              
                 <h2 className={styles.secondaryHeader}>
                     How Much do a Frontend Web Developer earn?
                 </h2 >
+                <p className={styles.paragraph}>
+                    According to data gathered by <Link href='http://www.salaryexplorer.com/salary-survey.php?loc=158&loctype=1&job=10390&jobtype=3'>
+                        <a className={styles.link} target='_blank'>
+                              salaryexplorer 
+                        </a>
+                    </Link> which was derived from both employer job postings and third party data sources.
+                    A front-end developer in Nigeria earns between <b>145,000 NGN</b> to <b>500,000 NGN </b> upwards depending on your level of experience.
+                </p>
+                <h3 className={styles.tertiaryHeader}>
+                    What is the Average Salary of a Front-end Web Developer in Nigeria?
+                </h3 >
+                <p className={styles.paragraph}>
+                    Below is a table showing the average salary of a front-end web developer in Nigeria based on his/her years of experience.
+                </p>
+                <table className={styles.table}>
+                    <thead className={styles.tableHead}>
+                    <tr className='pt-m'>
+                            <th>S/N</th>
+                            <th>Years of Experience</th>
+                            <th>Salary Range</th>
+                        </tr>
+                    </thead>  
+                    <tbody>
+                        <tr>
+                            <td className={styles.tableData}>1</td>
+                            <td className={styles.tableData}>0-1 (Entry level)</td>
+                            <td className={styles.tableData}>145,000 NGN +</td>
+                        </tr>
+                        <tr>
+                            <td className={styles.tableData}>2</td>
+                            <td className={styles.tableData}>2-3 (Junior-level)</td>
+                            <td className={styles.tableData}>250,000 NGN +</td>
+                        </tr>
+                        <tr>
+                            <td className={styles.tableData}>3</td>
+                            <td className={styles.tableData}>3-5 (Senior level)</td>
+                            <td className={styles.tableData}>350,000 NGN + </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p className={styles.paragraph}>
+                    The above ranges may differ based on several reasons such as company size, reputation etc.
+                    The big players company tends to follow the standard while startups most likey always play to the naive of most entry level candidates.
+                </p>
+                <p className={styles.paragraph}>
+                    It is advisable to lean how to negotiate during this phase of your job hunt. You can go through our step by step guide on <Link href='/'>
+                        <a className={styles.link} target='_blank'>
+                        how to negotiate your salary 
+                        </a>
+                    </Link>  when interviewing with a company.
+                    Negotiation is a skill which must be learn inorder to get a better and standard salary during your job interview.
+                </p>
+                <h2 className={styles.tertiaryHeader}>
+                    Who is an entry-level developer?
+                </h2 >
+                <p className={styles.paragraph}>
+
+                </p>
+                <p className={styles.paragraph}>
+
+                </p>
+                <h2 className={styles.tertiaryHeader}>
+                    Who is an junior-level /mid-senior developer?
+                </h2 >
+                <p className={styles.paragraph}>
+
+                </p>
+                <p className={styles.paragraph}>
+
+                </p>
+                <h2 className={styles.tertiaryHeader}>
+                    Who is an senior-level developer?
+                </h2 >
+                <p className={styles.paragraph}>
+
+                </p>
                 <p className={styles.paragraph}>
 
                 </p>
@@ -86,6 +161,48 @@ const frontendDevelopment:NextPage = () => {
                 <p className={styles.paragraph}>
 
                 </p>
+                <h2 className={styles.secondaryHeader}>
+                    Beginners Stage
+                </h2>
+                <h3 className={styles.tertiaryHeader}>
+                    HTML5
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    CSS3
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    Javascript
+                </h3 >
+                <h2 className={styles.secondaryHeader}>
+                    Intermediate- level
+                </h2>
+                <h3 className={styles.tertiaryHeader}>
+                    CSS Libraries / Framework
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    Git / GitHub
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    ReactJs 
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    Redux
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    Consuming REST API
+                </h3 >
+                <h2 className={styles.secondaryHeader}>
+                    Advanced Stage
+                </h2>
+                <h3 className={styles.tertiaryHeader}>
+                    Typescript
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    NextJs
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    GraphQL
+                </h3 >
                 <h2 className={styles.secondaryHeader}>
                     How Orisfina Computer Institute can help you become a Frontend Developer with our structured and Updated Syllabus
                 </h2>
