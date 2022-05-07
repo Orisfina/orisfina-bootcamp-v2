@@ -84,7 +84,7 @@ const WebDevelopment: NextPage = () => {
             <li>- Optimizing page load time.</li>
         </ul>
             <Button link='/register' cName='course_btn p-xy mr-s'>Apply Now! </Button>
-            <Button link='/blog/backend-web-development-career' cName='course_btn p-xy '>MORE ABOUT  BACKEND ROLE</Button>
+            <Button link='/blog/how-to-become-a-backend-developer-as-a-beginner' cName='course_btn p-xy '>MORE ABOUT  BACKEND ROLE</Button>
         </main>
         <Footer />
         </>

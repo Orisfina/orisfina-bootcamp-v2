@@ -7,30 +7,29 @@ import Footer from '../../components/Footer'
 import Head from 'next/head'
 
 
-const frontendDevelopment:NextPage = () => {
+const backendDevelopment:NextPage = () => {
   return (
     <>
     <Head>
-        <title>Roadmoap to becoming a Front-end Web Developer</title>
-        <meta name="description" content="Orisfina is a Bootcamp in Auchi offers front-end development courses which will get you started" />
-        <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria, front end developer salary in nigeria, how to become a front-end developer,how to become a front end developer in 3 months,how to become a frontend developer ,front end developer jobs in nigeria,why become a front-end developer,can i become a front-end developer,what to learn to become a front-end developer,what is needed to become a front-end developer,why become a front-end developer " />
+        <title>How to become a back-end Developer as a beginner | Orisfina Bootcamp</title>
+        <meta name="description" content="Backend developers are one of the most sort people in the world with lots of job opportunities. This guide covers everything you need to know about backend developers to get started" />
+        <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a beginner, top web design schools in Edo State Nigeria,  back-end developer salary in nigeria, how to become a back-end developer,how to become a back-end developer in 3 months,how to become a backend developer ,back-end developer jobs in nigeria,why become a back-end developer,can i become a back-end developer,what to learn to become a back-end developer,what is needed to become a back-end developer,why become a back-end developer " />
         
     </Head>
-    
         <NavBar />
         <main>
             <article>
                <header className={styles.titleHeader}>
-                <h1 className={styles.title}> How to become a Front-end web developer from scratch - A step by step guide</h1>
+                <h1 className={styles.title}> How to become a back-end web developer from scratch - A step by step guide</h1>
                     <p className={styles.articleDetails}>
                         <span>By <Link href='https://joshuaoyewole.com.ng'><a className={`${styles.posterName} ${styles.posterlink}`}>Joshua Oyewole</a></Link> || Posted on 5 May, 2022</span>
                     </p>
                </header>
             <div className={styles.container}>
-                <h2 className={styles.secondaryHeader}>What is Front-end Web Development?</h2>
+                <h2 className={styles.secondaryHeader}>What is back-end Web Developer?</h2>
                 <p className={styles.paragraph}>
-                    Front-end Development or Client-side Development is an aspect of Web Development that deals with the design and structuring of a webpage.
-                    A Frontend developer is saddled with the responsibilities of converting a UI Design into a webpage or application using a programming language (mostly HTML,CSS and JS) that can be compiled and understood by a browser.
+                    back-end Development or Client-side Development is an aspect of Web Development that deals with the management of what and how a user interacts with a website.
+                    A backend developer is saddled with the responsibilities of coverting a UX Design into a programming language (mostly HTML) that can be compiled and understood by a browser.
                 </p>
                 <p className={styles.paragraph}>
                     You browse the internet using a web browser (i.e Google Chrome, Mozilla FireFox, Opera mini etc.)
@@ -46,17 +45,17 @@ const frontendDevelopment:NextPage = () => {
                     </i>
                 </p>
                 <p className={styles.paragraph}>
-                    Literally, everything you see or interact with when you visit a website is designed by a Front-end Web Developer. 
-                    The Layout of the webpage, the images, the links, beautiful colors and more are all the work of a front-end web developer.
+                    Literally, everything you see or interact with when you visit a website is designed by a back-end Web Developer. 
+                    The Layout of the webpage, the images, the links, beautiful colors and more are all the work of a back-end web developer.
                 </p>
                 
                 <h2  className={styles.secondaryHeader}>Are there Job Opportunity in this path?</h2>
                 <p className={styles.paragraph}>
                     It is estimated that over 2 million + websites are created yearly.
-                    This has increased the surge for web developer by over 3% yearly. The more websites are created, the higher the needs for front-end developers who will bring the designs of your website into Limelight.
+                    This has increased the surge for web developer by over 3% yearly. The more websites are created, the higher the needs for back-end developers who will bring the designs of your website into Limelight.
                 </p>
                 <p className={styles.paragraph}>
-                    Therefore, being a front-end developers presents you with a whole lots of Job opportunities.
+                    Therefore, being a back-end developers presents you with a whole lots of Job opportunities.
                     You can choose from being a <b>freelencer web developer</b> and dictates your own terms as regards to : 
                 </p>
                 <ul className={styles.paragraph}>
@@ -69,12 +68,12 @@ const frontendDevelopment:NextPage = () => {
                     If you are lover of 9 -5 Job or a team kind, you can decide to apply to companies interested in hiring you and grow our career.
                 </p>
                 <p className={styles.paragraph}>
-                    Being a front-end web developer comes with a whole lots of Job opportunities. <abbr title="Information Technology">I.T</abbr> is a growing field and this is only just the beginner.
+                    Being a back-end web developer comes with a whole lots of Job opportunities. <abbr title="Information Technology">I.T</abbr> is a growing field and this is only just the beginner.
                 </p>
                    
               
                 <h2 className={styles.secondaryHeader}>
-                    How Much do a Frontend Web Developer earn?
+                    How Much does a backend Web developer earn?
                 </h2 >
                 <p className={styles.paragraph}>
                     According to data gathered by <Link href='http://www.salaryexplorer.com/salary-survey.php?loc=158&loctype=1&job=10390&jobtype=3'>
@@ -82,13 +81,13 @@ const frontendDevelopment:NextPage = () => {
                               salaryexplorer 
                         </a>
                     </Link> which was derived from both employer job postings and third party data sources.
-                    A front-end developer in Nigeria earns between <b>145,000 NGN</b> to <b>500,000 NGN </b> upwards depending on your level of experience.
+                    A back-end developer in Nigeria earns between <b>145,000 NGN</b> to <b>500,000 NGN </b> upwards depending on your level of experience.
                 </p>
                 <h3 className={styles.tertiaryHeader}>
-                    What is the Average Salary of a Front-end Web Developer in Nigeria?
+                    What is the Average Salary of a back-end Web Developer in Nigeria?
                 </h3 >
                 <p className={styles.paragraph}>
-                    Below is a table showing the average salary of a front-end web developer in Nigeria based on his/her years of experience.
+                    Below is a table showing the average salary of a back-end web developer in Nigeria based on his/her years of experience.
                 </p>
                 <table className={styles.table}>
                     <thead className={styles.tableHead}>
@@ -123,10 +122,10 @@ const frontendDevelopment:NextPage = () => {
                 </table>
 
                 <h3 className={styles.tertiaryHeader} >
-                   What is the Average Salary of a front-end web developer in europe
+                   What is the Average Salary of a back-end web developer in europe
                 </h3 >
                 <p className={`${styles.paragraph} pb-m`}>
-                    Below is a table showing the average salary of a front-end web developer in Europe based on his/her years of experience.
+                    Below is a table showing the average salary of a back-end web developer in Europe based on his/her years of experience.
                 </p>
                 <table className={styles.table}>
                     <thead className={styles.tableHead}>
@@ -188,7 +187,7 @@ const frontendDevelopment:NextPage = () => {
                         <a className={styles.link} target='_blank'>
                         free courses 
                         </a>
-                    </Link> available on youtube to get you started while if you learn better having a guidiance then you can <Link href='/register'>
+                    </Link> available on youtube to get you started while if you learn better having a guidiance then you can <Link href='/how-to-become-a-backend-developer-as-a-beginner'>
                         <a className={styles.link} target='_blank'>
                         register 
                         </a>
@@ -221,23 +220,23 @@ const frontendDevelopment:NextPage = () => {
                     They lead a project and makes well-reasoned decisions about software design and implementation based on the knowledge of the best practices in the field.
                 </p>
                 <h2 className={styles.secondaryHeader}>
-                    What are the Technologies needed to be a Frontend Developer?
+                    What are the Technologies needed to be a backend Developer?
                 </h2>
                 <p className={styles.paragraph}>
-                    Becoming a front-end developer requires the basic knowledge of some tools and Technologies which ranges from <b>HTML, CSS and Javascript.</b> They are often referred to as the language of the web.
+                    Becoming a back-end developer requires the basic knowledge of some tools and Technologies which ranges from <b>HTML, CSS and Javascript.</b> They are often referred to as the language of the web.
                 </p>
                 <p className={styles.paragraph}>
-                    Front-end developers are responsible for the implementation of designs and as such needs to be able to know how to structure layouts of web apps using a markup language like HTML.
+                    back-end developers are responsible for the implementation of designs and as such needs to be able to know how to structure layouts of web apps using a markup language like HTML.
                 </p>
                 <p className={styles.paragraph}>
-                    To be a front-end developer, you also need to learn how to style your application using a styling language such as CSS.
+                    To be a back-end developer, you also need to learn how to style your application using a styling language such as CSS.
                     Javascript is also needed for manipulating how your components such as button, navbar etc reacts to users actions. 
                 </p>
                 <p className={styles.paragraph}>
                     The above languages (HTML,CSS and JS) are the most needed language as every other frameworks or libraries which you will come across in your career are built on these.
                 </p>
                 <p className={styles.paragraph}>
-                    A front-end developers needs to know how to collaborate with other developers when working with a team of other developers.
+                    A back-end developers needs to know how to collaborate with other developers when working with a team of other developers.
                     As such, the need to understand a version control technologies such as <b>Git</b> is necessary also.
                 </p>
                 <p className={styles.paragraph}>
@@ -283,7 +282,7 @@ const frontendDevelopment:NextPage = () => {
                 </p>
                 <p className={styles.paragraph}>
                     The colors, background-color, positioning and more are added with the help of your CSS.
-                    CSS is a very important language you need to learn on your path to becoming a front-end developer.
+                    CSS is a very important language you need to learn on your path to becoming a back-end developer.
                 </p>
                 <h3 className={styles.tertiaryHeader}>
                     Javascript
@@ -294,7 +293,7 @@ const frontendDevelopment:NextPage = () => {
                     The way your components reacts to certain actions are usually done using Javascript as it makes your webpage more dynamic.
                 </p>
                 <p className={styles.paragraph}>
-                    Javascript is a very powerful language used both creating the backend (server-side) of the application and also the front-end (Client side) of your applications.
+                    Javascript is a very powerful language used both creating the backend (server-side) of the application and also the back-end (Client side) of your applications.
                 </p>
                 <h2 className={styles.secondaryHeader}>
                     Intermediate- level
@@ -358,97 +357,26 @@ const frontendDevelopment:NextPage = () => {
                 <h3 className={styles.tertiaryHeader}>
                     ReactJs 
                 </h3 >
-                <p className={styles.paragraph}>
-                    React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
-                </p>
-                <p className={styles.paragraph}>
-                    React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-                </p>
-                <p className={styles.paragraph}>
-                    Kindly take out time to watch this video on  <Link href='https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A'>
-                         <a className={styles.link} target='_blank'>
-                         how to get started with React
-                        </a>
-                    </Link> 
-                </p>
-    
+                <h3 className={styles.tertiaryHeader}>
+                    Redux
+                </h3 >
+                <h3 className={styles.tertiaryHeader}>
+                    Consuming REST API
+                </h3 >
                 <h2 className={styles.secondaryHeader}>
                     Advanced Stage
                 </h2>
-                <p className={styles.paragraph}>
-                    At this stage you should be comfortable consuming API's and also familiar with Javascript libraries such as React/Redux.
-                    You can proceed further by learning the following
-                </p>
-                
                 <h3 className={styles.tertiaryHeader}>
                     Typescript
                 </h3 >
-                <p className={styles.paragraph}>
-                    TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-                </p>
-                <p className={styles.paragraph}>
-                    TypeScript is a programming language developed and maintained by Microsoft. It is designed for the development of large applications and transpiles to JavaScript. As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.
-                </p>
-                <p className={styles.paragraph}>
-                    Kindly take out time to watch this video on  <Link href='https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK'>
-                         <a className={styles.link} target='_blank'>
-                         how to get started with Typescript
-                        </a>
-                    </Link> 
-                </p>
-                <p className={styles.paragraph}>
-                Source: <Link href='https://en.wikipedia.org/wiki/TypeScript'>
-                         <a className={styles.link} target='_blank'>
-                         What is Typescript
-                        </a>
-                    </Link> 
-                </p>
-                 
                 <h3 className={styles.tertiaryHeader}>
                     NextJs
                 </h3 >
-                <p className={styles.paragraph}>
-                Next.js is an open-source web development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites. React documentation mentions Next.js among "Recommended Toolchains" advising it to developers as a solution when "Building a server-rendered website with Node.js". Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server side.
-                </p>
-                <p className={styles.paragraph}>
-                    Kindly take out time to watch this video on  <Link href='https://www.youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH'>
-                         <a className={styles.link} target='_blank'>
-                         how to get started with NextJs
-                        </a>
-                    </Link> 
-                </p>
-                <p className={styles.paragraph}>
-                Source: <Link href='https://en.wikipedia.org/wiki/Next.js'>
-                         <a className={styles.link} target='_blank'>
-                         What is NextJS
-                        </a>
-                    </Link> 
-                </p>
                 <h3 className={styles.tertiaryHeader}>
                     GraphQL
                 </h3 >
-                <p className={styles.paragraph}>
-                GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015. 
-                </p>
-                <p className={styles.paragraph}>
-                It provides an approach to developing web APIs and has been compared and contrasted with REST and other web service architectures. It allows clients to define the structure of the data required, and the same structure of the data is returned from the server, therefore preventing excessively large amounts of data from being returned. But this has implications for how effective web caching of query results can be
-                </p>
-                <p className={styles.paragraph}>
-                    Kindly take out time to watch this video on  <Link href='https://www.youtube.com/watch?v=fVmQCnQ_EPs'>
-                         <a className={styles.link} target='_blank'>
-                         how to get started with NextJs
-                        </a>
-                    </Link> 
-                </p>
-                <p className={styles.paragraph}>
-                Source: <Link href='https://en.wikipedia.org/wiki/Next.js'>
-                         <a className={styles.link} target='_blank'>
-                         What is GraphQL
-                        </a>
-                    </Link> 
-                </p>
                 <h2 className={styles.secondaryHeader}>
-                    How can Orisfina Computer Institute help you become a Front-end Developer?
+                    How can Orisfina Computer Institute help you become a back-end Developer?
                 </h2>
                 <p className={styles.paragraph}>
                     <Link href='/about'>
@@ -458,7 +386,7 @@ const frontendDevelopment:NextPage = () => {
                     </Link> is one of the leading web design bootcamp in Nigeria currently located in Auchi, Edo-state with a vision of spreading across the various cities of Nigeria and Africa inorder to equiped young and old with Technnological skills/knowledge in Web/App design.
                 </p>
                 <p className={styles.paragraph}>
-                    Our front-end course is structured in a way to help an absolute beginner with no prior knowledge about the web get started.
+                    Our back-end course is structured in a way to help an absolute beginner with no prior knowledge about the web get started.
                 </p>
                 <p className={styles.paragraph}>
                     Our students are introduced to the basics of the web such as how the internet works, what servers, ISP (Internet service providers) and Intenet protocols are.
@@ -486,7 +414,7 @@ const frontendDevelopment:NextPage = () => {
                     According to projection, it is believe that more and more jobs will be created as new website and applications are been built on a daily basics. 
                 </p>
                 <p className={styles.paragraph}>
-                    The need to maintain and upgrade will always increase the demands of a front-end developer as each year comes with various design trends.
+                    The need to maintain and upgrade will always increase the demands of a back-end developer as each year comes with various design trends.
                 </p>
                 <p className={styles.paragraph}>
                     It is a life-long learning path but can only be achievable when you take a step today. 
@@ -504,20 +432,9 @@ const frontendDevelopment:NextPage = () => {
         
             </div>
         </article>
-        <h2 className={`${styles.secondaryHeader} ${styles.center} ${styles.mbl}`}>
-            Related Article
-        </h2>
-        <div className={`${styles.center} ${styles.mbl}`}>
-            <Link href='/blog/how-to-become-a-backend-developer-as-a-beginner' >
-            <a className={`${styles.link} ${styles.center}`}>
-                How to become a back-end Developer - A beginner guide
-            </a>
-        </Link>
-        </div>
-        
     </main>
     <Footer />
     </>
   )
 }
-export default frontendDevelopment
+export default backendDevelopment

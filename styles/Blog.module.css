@@ -72,6 +72,12 @@
 .link:hover,.posterlink:hover{
     color: rgb(231, 143, 139);
 }
+.center{
+    text-align: center;
+}
+.mbl{
+    margin-bottom: 5rem;
+}
 /* MEDIA QUERIES */
 @media (min-width:375px) {
     .title{

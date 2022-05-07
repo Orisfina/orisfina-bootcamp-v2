@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   <>
     <Head>
       <title>Learn Web Development from Scratch with Orisfina | OCI</title>
-      <meta name="description" content="Orisfina is a Bootcamp in Auchi with courses in web development, graphic design, and mobile app development designed to take you from scratch to professional" />
+      <meta name="description" content="Looking for a place level up your web development skills? We got you covered. Our Bootcamp is all you need to get started today!" />
       <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, learn graphic design, learn app development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria" />
       
     </Head>
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
                                    <p className='t-left'>
                                         A back-end developer is someone who builds and maintains the technology needed to power the components which enable the user-facing side of the website to exist. 
                                    </p> 
-                                   <Button cName='btn blog_btn inline-block' link='/blog/backend-web-development-career'>Read More</Button>
+                                   <Button cName='btn blog_btn inline-block' link='/blog/how-to-become-a-backend-developer-as-a-beginner'>Read More</Button>
                               </div>
                          </div>   
                     </div>

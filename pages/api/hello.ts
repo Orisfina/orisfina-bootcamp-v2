@@ -12,5 +12,11 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ id:1,projectDesc:'djdjd', projectImg:'jssj', projectLink:'jdjd'})
+  res.status(200).json(
+    {
+      id:1,
+      projectDesc:'jsjsj',
+      projectImg: 'kdkdkd',
+      projectLink: 'kdkd'
+    })
 }
