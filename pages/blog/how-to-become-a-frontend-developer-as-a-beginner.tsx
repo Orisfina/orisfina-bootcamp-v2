@@ -376,7 +376,7 @@ const frontendDevelopment:NextPage = () => {
                     Advanced Stage
                 </h2>
                 <p className={styles.paragraph}>
-                    At this stage you should be comfortable consuming API's and also familiar with Javascript libraries such as React/Redux.
+                    At this stage you should be comfortable consuming API&rsquo; s and also familiar with Javascript libraries such as React/Redux.
                     You can proceed further by learning the following
                 </p>
                 
