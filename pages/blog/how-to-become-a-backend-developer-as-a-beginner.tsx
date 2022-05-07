@@ -22,13 +22,13 @@ const backendDevelopment:NextPage = () => {
                <header className={styles.titleHeader}>
                 <h1 className={styles.title}> How to become a back-end web developer from scratch - A step by step guide</h1>
                     <p className={styles.articleDetails}>
-                        <span>By <Link href='https://joshuaoyewole.com.ng'><a className={`${styles.posterName} ${styles.posterlink}`}>Joshua Oyewole</a></Link> || Posted on 5 May, 2022</span>
+                        <span>By <Link href='https://joshuaoyewole.com.ng'><a className={`${styles.posterName} ${styles.posterlink}`}>Joshua Oyewole</a></Link> || Posted on 7 May, 2022</span>
                     </p>
                </header>
             <div className={styles.container}>
                 <h2 className={styles.secondaryHeader}>What is back-end Web Developer?</h2>
                 <p className={styles.paragraph}>
-                    back-end Development or Client-side Development is an aspect of Web Development that deals with the management of what and how a user interacts with a website.
+                    Back-end Development or Client-side Development is an aspect of Web Development that deals with the management of what and how a user interacts with a website.
                     A backend developer is saddled with the responsibilities of coverting a UX Design into a programming language (mostly HTML) that can be compiled and understood by a browser.
                 </p>
                 <p className={styles.paragraph}>
@@ -432,6 +432,16 @@ const backendDevelopment:NextPage = () => {
         
             </div>
         </article>
+        <h2 className={`${styles.secondaryHeader} ${styles.center} ${styles.mbl}`}>
+            Related Article
+        </h2>
+        <div className={`${styles.center} ${styles.mbl}`}>
+            <Link href='/blog/how-to-become-a-frontend-developer-as-a-beginner' >
+            <a className={`${styles.link} ${styles.center}`}>
+                How to become a front-end Developer - A beginner guide
+            </a>
+        </Link>
+        </div>
     </main>
     <Footer />
     </>
