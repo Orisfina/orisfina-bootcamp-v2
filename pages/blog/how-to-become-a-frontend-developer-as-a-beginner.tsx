@@ -276,7 +276,7 @@ const frontendDevelopment:NextPage = () => {
                     CSS3
                 </h3 >
                 <p className={styles.paragraph}>
-                    CSS known as "Cascading stylesheet" is used to style your webpage. CSS is used to bring the beauty of a webpage. I often refer to it as "flesh used to cover a skeleton" thereby bringing the beauty.
+                    CSS known as &rdquo;Cascading stylesheet&rdquo; is used to style your webpage. CSS is used to bring the beauty of a webpage. I often refer to it as &rdquo;flesh used to cover a skeleton&rdquo; thereby bringing the beauty.
                 </p>
                 <p className={styles.paragraph}>
                     Imagine how you will look like without the skin in your body which covers your bone. I guess you would look more beautiful without it. lolz
@@ -408,7 +408,7 @@ const frontendDevelopment:NextPage = () => {
                     NextJs
                 </h3 >
                 <p className={styles.paragraph}>
-                Next.js is an open-source web development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites. React documentation mentions Next.js among "Recommended Toolchains" advising it to developers as a solution when "Building a server-rendered website with Node.js". Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server side.
+                Next.js is an open-source web development framework built on top of Node.js enabling React based web applications functionalities such as server-side rendering and generating static websites. React documentation mentions Next.js among &rdquo;Recommended Toolchains&rdquo; advising it to developers as a solution when &rdquo;Building a server-rendered website with Node.js&rdquo;. Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server side.
                 </p>
                 <p className={styles.paragraph}>
                     Kindly take out time to watch this video on  <Link href='https://www.youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH'>

@@ -275,7 +275,7 @@ const backendDevelopment:NextPage = () => {
                     CSS3
                 </h3 >
                 <p className={styles.paragraph}>
-                    CSS known as "Cascading stylesheet" is used to style your webpage. CSS is used to bring the beauty of a webpage. I often refer to it as "flesh used to cover a skeleton" thereby bringing the beauty.
+                    CSS known as &rdquo; Cascading stylesheet&rdquo; is used to style your webpage. CSS is used to bring the beauty of a webpage. I often refer to it as &rdquo;flesh used to cover a skeleton&rdquo; thereby bringing the beauty.
                 </p>
                 <p className={styles.paragraph}>
                     Imagine how you will look like without the skin in your body which covers your bone. I guess you would look more beautiful without it. lolz
