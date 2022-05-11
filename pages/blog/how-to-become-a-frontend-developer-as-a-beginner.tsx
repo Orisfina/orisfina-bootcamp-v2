@@ -348,7 +348,7 @@ const frontendDevelopment:NextPage = () => {
                         </p>
                     <li><b>TailwindCSS</b></li>
                         <p className={styles.paragraph}>
-                        Tailwind CSS is becoming a go to option in the last 2 years due to its class base implementation. It works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file. It's fast, flexible, and reliable — with zero-runtime.
+                        Tailwind CSS is becoming a go to option in the last 2 years due to its class base implementation. It works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file. It&#39;s fast, flexible, and reliable — with zero-runtime.
                         </p>
                         <p className={`${styles.paragraph} mb-m`}>
                             Source: <Link href='https://tailwindcss.com/docs/installation'>
