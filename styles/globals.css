@@ -58,10 +58,10 @@ p {
   li {
     font-size: 1.8rem; } }
 
-.hide-on-mobile {
+.hide-on-mobile, .hide-on-desktop {
   display: none !important; }
   @media (min-width: 75em) {
-    .hide-on-mobile {
+    .hide-on-mobile, .hide-on-desktop {
       display: block !important; } }
 
       .hide-on-mobile-flex {
@@ -108,9 +108,6 @@ p {
 .primary-header {
   color: #FEE300;
   text-transform: uppercase; }
-
-h2 span {
-  color: #0087cb; }
 
 .primary__text {
   font-size: 2.5rem;
@@ -162,6 +159,8 @@ h2 span {
   text-align: center; }
   @media (min-width: 75em) {
     .tertiary-header {
+      color: #F45D01;
+    font-weight: 800;
       text-align: left; } }
 
 .block_on_desktop {
@@ -219,7 +218,9 @@ h2 span {
 
 .primary-color {
   color: #0088cc; }
-
+.secondary-color{
+  color: #F45D01;
+}
 .t-justify {
   text-align: justify; }
 
@@ -228,7 +229,9 @@ h2 span {
 
 .j-c-sb {
   justify-content: space-between; }
-
+  .j-c-center {
+    justify-content: center; }
+  
 .white {
   color: #EEF7F8 !important; }
 
@@ -466,10 +469,10 @@ h2 span {
 
 .slideshow-main {
   height: 100vh;
-  background-image: url("../public/images/slideshow-mini.jpg");
+  /* background-image: url("../public/images/slideshow-mini.jpg");
   background-position: center;
   background-size: cover;
-  background-clip: border-box;
+  background-clip: border-box; */
   padding-top: 5rem !important; }
   @media (min-width: 23.88em) {
     .slideshow-main {
@@ -494,28 +497,44 @@ h2 span {
     font-weight: 600;
     line-height: 1.2;
     padding-bottom: 2rem;
-    color: #EEF7F8; }
+    color: #000000;
+    padding-top: 6rem;
+  text-align: center; }
     @media (min-width: 23.88em) {
       .slideshow__title {
         font-size: 3.9rem;
-        padding-top: 13rem; } }
+        padding-top: 18rem; }
+        .why-section {
+          margin-top: 12rem;
+      } }
     @media (min-width: 37.5em) {
       .slideshow__title {
-        font-size: 5rem; } }
+        font-size: 5rem;
+        padding-top: 10rem;
+      }
+     }
+     @media (min-width:760px) {
+      .right{
+        height: 45vh !important;
+      }
+     }
     @media (min-width: 75em) {
       .slideshow__title {
-        font-family: 'Mulish', sans-serif;
-        font-size: 4.5rem;
+        /* font-family: 'Mulish', sans-serif; */
+        font-size: 5rem;
         padding-top: 0rem;
-        line-height: 1.2;
+        line-height: 1.1;
         padding-bottom: 0rem;
-        color: #000D0E; } }
+        color: #000D0E;
+        text-align: left; 
+       } }
   .slideshow__desc {
     font-size: 1.6rem;
     font-weight: normal !important;
     line-height: 1.5;
     font-family: 'Mulish', sans-serif;
-    color: #EEF7F8; }
+    color: #000D0E;
+  text-align: center; }
     @media (min-width: 23.88em) {
       .slideshow__desc {
         font-size: 1.9rem;
@@ -527,7 +546,8 @@ h2 span {
       .slideshow__desc {
         font-size: 2rem;
         color: #000D0E;
-        padding-top: 2rem; } }
+        padding-top: 2rem; 
+      text-align: left;} }
   .slideshow__bar {
     background: linear-gradient(-45deg, #166C4D, #EEF7F8, #166C4D, #FEE300);
     /* background: linear-gradient(
@@ -551,12 +571,29 @@ h2 span {
         width: 40vw !important; } }
 
 .right {
-  display: flex; }
+    background-image: url('../public/images/slideshow-new-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    height: 40vh;
+    width: 100%; }
   @media (min-width: 75em) {
     .right {
-      justify-content: flex-end;
-      align-items: center; } }
+      height: 100% !important;
+      width: 80%;
+      margin-left: 5rem; } }
 
+  .slideshow_btn{
+    align-items: center;
+    justify-content: center;
+  }
+  @media (min-width: 75em) {
+    .slideshow_btn{
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
 .project-box__img {
   border-radius: 5%;
   object-fit: fill;
@@ -571,7 +608,16 @@ h2 span {
     .project-box__desc {
       line-height: 2.5rem;
       text-align: left; } }
-
+.rounded-btn{
+  border-radius: 2.5rem;
+  padding: 1rem 4rem;
+}
+@media (min-width: 75em) {
+  .rounded-btn{
+    border-radius: 0;
+    padding: 1rem 4rem;
+  }
+}
 *,
 *::before,
 *::after {
@@ -1446,9 +1492,11 @@ aside {
 
 .text {
   position: relative;
-  z-index: 100; }
+  z-index: 100;
+padding-bottom: 3rem; }
   @media (min-width: 75em) {
     .text {
+      padding-bottom: 0;
       padding-top: 5rem; } }
 
 .grid3.a-i-center {

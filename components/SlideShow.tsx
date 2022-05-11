@@ -1,4 +1,4 @@
-import right from '../public/images/project3.jpg'
+import right from '../public/images/slideshow-new-image.png'
 import Button from './Button';
 import Image from 'next/image'
 
@@ -8,16 +8,17 @@ const SlideShow = () => {
          <div className="grid23">
               <div className="text">
                    <h1 className="slideshow__title">
-                        Learn how to <div className="break">Design a Website
-                             </div> from scratch
+                   Become a <span className="secondary-color">Web Developer</span> in 12 weeks. 
                    </h1>
                    <p className="slideshow__desc">
-                   Become an expert today at building responsive, and attractive websites with our project based system of learning capable of taking you from a complete beginner to a Job ready Level. </p>
-                   <Button link='/register' cName='btn_register'>Join Now</Button>
+                   Join thousands of others in starting a career as a Web developer or graphic designer with our project-based learning system capable of taking you from a complete beginner to a Job ready Level.</p>
+                   <div className='flex slideshow_btn'>
+                   <Button link='/register' cName='btn_register rounded-btn'>Join Now</Button>
+                   </div>
               </div>
-              <div className="right hide-on-mobile">
-                   <Image 
-                         src={right} alt="orisfina computer institute students smiling" className="slideshow__right hide-on-mobile" />
+              <div className="right">
+                    {/* <Image 
+                         src={right} alt="orisfina computer institute students smiling" className="slideshow__right hide-on-desktop" />  */}
               </div>
               
          </div>

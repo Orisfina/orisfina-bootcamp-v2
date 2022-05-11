@@ -21,8 +21,8 @@ const Home: NextPage = () => {
   return (
   <>
     <Head>
-      <title>Learn Web Development from Scratch with Orisfina | OCI</title>
-      <meta name="description" content="Looking for a place level up your web development skills? We got you covered. Our Bootcamp is all you need to get started today!" />
+      <title>Become a Web Developer from Scratch with Orisfina Bootcamp</title>
+      <meta name="description" content="Acquire the skills needed to become a web developer irrespective of your background. We've got you covered! " />
       <meta name="keywords" content="Orisfina, Orisfina computer institute, computer schools in Auchi , Web development training, bootcamp in edo state, learn web development, learn graphic design, learn app development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria" />
       
     </Head>
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
            <section className="light container why-section">
                 <h2 className=' primary__text pb-m'>
                 Why Orisfina Bootcamp is the <span className="block_on_desktop">
-                    <span>best place</span> for you
+                    <span className='secondary-color'>best place</span> for you
                </span>
                 </h2>
                 <div className="grid2">
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
 
            {/* What you will be Building Section */}
            <section className="light container clip-bg">
-           <h2 className='primary__text primary__text2 pb-l t-center'>What you will be <span> building</span></h2>
+           <h2 className='primary__text primary__text2 pb-l t-center'>What you will be <span className='secondary-color'> building</span></h2>
            <ProjectBox  />
            </section>
 
