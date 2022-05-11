@@ -22,7 +22,7 @@ import signup from '../public/images/signup.svg'
          </div>
          <div className='reg-form'>
               <h2 className='course-header t-center mb-m'>Signup to Orisfina Bootcamp</h2>
-              <form name='Registration Form' method='POST' action='/success'>
+              <form name='Registration' method='POST' action='/success' data-netlify="true">
               <input type="hidden" name="form-name" value="Registration Form" />
                    <div className='form-group'>
                      <label className='form-label'> Email </label>
