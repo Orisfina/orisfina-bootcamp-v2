@@ -15,6 +15,7 @@ import blogImg2 from '../public/images/portfolio-website-tips-freelance-develope
 import blogImg3 from '../public/images/start-freelance-web-design-business.jpg'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar';
+import Courses from '../components/Courses';
 
 const Home: NextPage = () => {
   return (
@@ -86,79 +87,10 @@ const Home: NextPage = () => {
 
 
           {/* Courses Offered*/}
-           <section className="container bc-primary-color">
-                <h2 className='primary__text primary__text2 t-center white' >Courses Offered</h2>
-                <p className='tertiary-header t-center pb-l white'>Don&#39;t just watch, choose a skill for yourself</p>
-                <div className="grid2">
-                    <div className="text-section text-section__courses">
-                         <div className="grid1-6 ">
-                              <div>
-                                   <i className="pb-s fas fa-laptop-code fa-2x icon-color"></i>
-                              </div>
-                              <div>
-                              <h3 className="tertiary-header">
-                                   Web Design (Frontend Development) 
-                              </h3> 
-                              <p className='t-left'>
-                                   A front-end developer links together the world of design and technology, packaging up the utility of the back end in an inviting way for users to interact with. They take website design files and convert them into HTML, JavaScript (JS) and/or CSS code — the core elements of front-end development. 
-                              </p>
-                              <Button cName='btn blog_btn inline-block' link='/blog/how-to-become-a-frontend-developer-as-a-beginner'>Read More</Button> 
-                         </div>
-
-                         </div>   
-                    </div>
-
-                    <div className="text-section text-section__courses">
-                         <div className="grid1-6">
-                              <div>
-                                   <i className="pb-s fas fa-layer-group fa-2x icon-color"></i>
-                              </div>
-                         <div>
-                              <h3 className="tertiary-header">
-                                   Graphic Design
-                              </h3>
-                              <p className='t-left'>
-                                   Master the fundamental skills needed to design visually appealing designs. In this course, you will be expose to Hands-on projects that will improve your portfolio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat asperiores accusantium laborum aperiam sit eum aspernatur reprehenderit similique vel dicta?
-                              </p>
-                              <Button cName='btn blog_btn inline-block' link='/graphicDesignCareer'>Read More</Button>
-                         </div>    
-                    </div>
-               </div>  
-                    <div className="text-section text-section__courses">
-                         <div className="grid1-6">
-                              <div>
-                                   <i className="pb-s fas fa-search-dollar fa-2x  icon-color"></i>
-                              </div>
-                              <div>
-                                   <h3 className="tertiary-header">
-                                        Web Design (Backend Development)
-                                   </h3>
-                                   <p className='t-left'>
-                                        A back-end developer is someone who builds and maintains the technology needed to power the components which enable the user-facing side of the website to exist. 
-                                   </p> 
-                                   <Button cName='btn blog_btn inline-block' link='/blog/how-to-become-a-backend-developer-as-a-beginner'>Read More</Button>
-                              </div>
-                         </div>   
-                    </div>
-
-                    <div className="text-section text-section__courses">
-                         <div className="grid1-6">
-                              <div>
-                                   <i className=" pb-s fas fa-file-word fa-2x  icon-color" aria-hidden="true"></i>
-                              </div>
-                              <div>
-                              <h3 className="tertiary-header">
-                                   Application Packages
-                              </h3> 
-                              <p className='t-justify'>
-                                   This course gives you all the training needed to increase your typing speed, create beautiful powerpoint slides and also perform calculations in Microsoft Excel. Our Syllabus is tailored to get you going irrespective of who you are.
-                              </p>
-                              <Button cName='btn blog_btn mt-m inline-block' link='/applicationPackage'>Read More</Button>
-                              </div>
-                         </div>
-                    </div>
-                  
-               </div> 
+           <section className="container dark">
+                <h2 className='primary__text primary__text2 t-center ' >Courses Offered</h2>
+                <p className='tertiary-header t-center pb-l '>Don&#39;t just watch, choose a skill for yourself</p>
+                    <Courses />
           </section>
           {/* Section Do you know */}
           <section className="light container clip-bg">

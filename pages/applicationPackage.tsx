@@ -13,8 +13,8 @@ const applicationPackage: NextPage = () => {
         <>
         <Head>
             <title>Application Package Course | Orisfina Computer Instiute</title>
-            <meta name="description" content="All you need to get started as a Computer literate. Join hundreds of others now" />
-            <meta name="keywords" content="Application Package, I.T training in edo state" />
+            <meta name="description" content="Learn the basics of computer application packages as we uncover everything about Microsoft word, MS Excel, Powerpoint and lots more " />
+            <meta name="keywords" content="Application Package course, Excel training, microsoft word training, I.T training in edo state, computer training in Auchi" />
           </Head>
         <NavBar />
            <SlideshowShort title='APPLICATION PACKAGE'  color1='FRONTEND' color2='BACKEND' text1='AND' text2='TRAINING AVAILABLE' />

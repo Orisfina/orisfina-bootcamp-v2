@@ -8,7 +8,6 @@ class MyDocument extends Document {
       
       <Html lang='en'>
         <Head>
-            
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossOrigin="anonymous" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,6 +27,15 @@ class MyDocument extends Document {
               `
             }}
           />
+          <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" />
+        <link rel="shortcut icon" href="/images/favicons/favicon-96x96.png" />
+        <meta property="og:image" content="https://oci.com.ng/images/orisfina-computer-institute-cover-photo.jpg" />
+        <meta property="og:image:alt" content="orisfina bootcamp cover image" />
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:height" content="720" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png"/>
+        <meta property="og:site_name" content="Orisfina Computer Institute" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>

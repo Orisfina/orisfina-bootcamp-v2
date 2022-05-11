@@ -12,8 +12,12 @@ const frontendDevelopment:NextPage = () => {
     <>
     <Head>
         <title>Roadmoap to becoming a Front-end Web Developer</title>
-        <meta name="description" content="Orisfina is a Bootcamp in Auchi offers front-end development courses which will get you started" />
-        <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria, front end developer salary in nigeria, how to become a front-end developer,how to become a front end developer in 3 months,how to become a frontend developer ,front end developer jobs in nigeria,why become a front-end developer,can i become a front-end developer,what to learn to become a front-end developer,what is needed to become a front-end developer,why become a front-end developer, frontend developers, frontend development, frontend developers, skill front end developer, frontend development " />
+        <meta name="description" content="Front-end developers are responsible for implementing designs using a structured and styling language like HTML and CSS. This article is a complete guide on everything you need to know about frontend development." />
+        <meta name="keywords" content="Front-end development, front-end web developer, Orisfina, Orisfina computer institute, Auchi Nigeria, Web development training, bootcamp in Edo state, Web development, coding school, web development school in nigeria, web design school, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, top web design schools in Edo State Nigeria,front-end developer salary in nigeria, how to become a front-end developer,how to become a front-end developer in 3 months,how to become a frontend developer ,front end developer jobs in nigeria,can I become a front-end developer,what to learn to become a front-end developer,what is needed to become a front-end developer,why become a front-end developer, frontend developers, frontend development, frontend developers, skill front end developer, frontend development " />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Roadmoap to becoming a Front-end Web Developer| Orifina Computer Institute" />
+        <meta property="og:description" content="Front-end developers are responsible for implementing designs using a structured and styking language like HTML. This article is a complete guide on everything you need to know about frontend development." />
+        <meta property="og:url" content="https://oci.com.ng/blog/how-to-become-a-frontend-developer-as-a-beginner" />
         
     </Head>
     
@@ -30,19 +34,19 @@ const frontendDevelopment:NextPage = () => {
                 <h2 className={styles.secondaryHeader}>What is Front-end Web Development?</h2>
                 <p className={styles.paragraph}>
                     Front-end Development or Client-side Development is an aspect of Web Development that deals with the design and structuring of a webpage.
-                    A Frontend developer is saddled with the responsibilities of converting a UI Design into a webpage or application using a programming language (mostly HTML,CSS and JS) that can be compiled and understood by a browser.
+                    A Front-end developer is saddled with the responsibilities of converting a UI Design into a webpage or application using a programming language (mostly HTML,CSS and JS) that can be compilled and understood by a browser.
                 </p>
                 <p className={styles.paragraph}>
                     You browse the internet using a web browser (i.e Google Chrome, Mozilla FireFox, Opera mini etc.)
-                    These browsers understands HTML language and therefore converts the codes (syntax) written using HTML or any other structured language into what you see on the web page.
+                    These browsers understands HTML syntax and therefore converts the codes (syntax) written using HTML or any other structured language into what you see on the web page.
                 </p>
                 <p className={styles.paragraph}>
                     <abbr title="HyperText Markup Language">HTML </abbr> is a structured language of the browser. HTML is a markup language used to structure the layout of a web page.
                 </p>
                 <p className={`${styles.paragraph} my-s`}>
                     <b>NOTE: </b> <i>
-                        HTML is not a programming language as often said by people. 
-                        It is a Markup language used to structure the layout(how a web page should look) of a webpage. It defines how contents should be rendered on a webpage using its syntax and its mostly combined with other programming language and styling languages like CSS inorder to produced a dynamic and beautiful website
+                        HTML is not a programming language as often said. 
+                        It is a Markup language used to structure the layout of a webpage. It defines how contents should be rendered on a webpage using its syntax and its mostly combined with other programming language and styling languages like CSS inorder to produced a dynamic and beautiful website
                     </i>
                 </p>
                 <p className={styles.paragraph}>
@@ -53,20 +57,20 @@ const frontendDevelopment:NextPage = () => {
                 <h2  className={styles.secondaryHeader}>Are there Job Opportunity in this path?</h2>
                 <p className={styles.paragraph}>
                     It is estimated that over 2 million + websites are created yearly.
-                    This has increased the surge for web developer by over 3% yearly. The more websites are created, the higher the needs for front-end developers who will bring the designs of your website into Limelight.
+                    This has increased the surge for web developers by over 3% yearly. The more websites are created, the higher the need for front-end developers who will bring the designs into Limelight.
                 </p>
                 <p className={styles.paragraph}>
-                    Therefore, being a front-end developers presents you with a whole lots of Job opportunities.
+                    Therefore, being a front-end developer presents you with a whole lots of Job opportunities.
                     You can choose from being a <b>freelencer web developer</b> and dictates your own terms as regards to : 
                 </p>
                 <ul className={styles.paragraph}>
-                    <li>When to work</li>
-                    <li>Where to work (Home, office, or even in a bar</li>
-                    <li>How much you choose to charge</li>
-                    <li>You have alot of freedom as you are not restricted to a particular location</li>
+                    <li>- When to work</li>
+                    <li>- Where to work (Home, office, or even in a bar</li>
+                    <li>- How much you choose to charge</li>
+                    <li>- You have alot of freedom as you are not restricted to a particular location</li>
                 </ul>
                 <p className={styles.paragraph}>
-                    If you are lover of 9 -5 Job or a team kind, you can decide to apply to companies interested in hiring you and grow our career.
+                    If you are lover of 9 -5 Job, you can decide to apply to companies interested in hiring you and grow your career.
                 </p>
                 <p className={styles.paragraph}>
                     Being a front-end web developer comes with a whole lots of Job opportunities. <abbr title="Information Technology">I.T</abbr> is a growing field and this is only just the beginner.
@@ -74,7 +78,7 @@ const frontendDevelopment:NextPage = () => {
                    
               
                 <h2 className={styles.secondaryHeader}>
-                    How Much do a Frontend Web Developer earn?
+                    How Much do a Front-end Web Developer earn?
                 </h2 >
                 <p className={styles.paragraph}>
                     According to data gathered by <Link href='http://www.salaryexplorer.com/salary-survey.php?loc=158&loctype=1&job=10390&jobtype=3'>
@@ -123,7 +127,7 @@ const frontendDevelopment:NextPage = () => {
                 </table>
 
                 <h3 className={styles.tertiaryHeader} >
-                   What is the Average Salary of a front-end web developer in europe
+                   What is the Average Salary of a front-end web developer in europe?
                 </h3 >
                 <p className={`${styles.paragraph} pb-m`}>
                     Below is a table showing the average salary of a front-end web developer in Europe based on his/her years of experience.
@@ -161,7 +165,7 @@ const frontendDevelopment:NextPage = () => {
                 </table>
                 <p className={styles.paragraph}>
                     The above ranges may differ based on several reasons such as company size, reputation etc.
-                    The big players company tends to follow the standard while startups companies most likey always play to the naive of most entry level candidates.
+                    The big players company tends to follow the standard while startups companies most times likes to always play to the naive of most entry level candidates.
                 </p>
                 <p className={styles.paragraph}>
                     It is advisable to learn how to negotiate during this phase of your job hunt. You can go through our step by step guide on <Link href='/'>
@@ -180,7 +184,7 @@ const frontendDevelopment:NextPage = () => {
                 </p>
                 <p className={styles.paragraph}>
                     They are basically self-taught developers who have taken out time to study certain concepts and love to progress further with their career.
-                    This sets of developers are usually placed under strict supervision of Senior developers who guide them on their day to day task and comes in whenever they are stock with problems.
+                    This sets of developers are usually placed under strict supervision of Senior developers who guide them on their day to day task and comes in whenever they are stuck with problems.
                 </p>
                 <p className={styles.paragraph}>
                     Before you can apply for entry-level positions, you should have a basic understanding of how to structure a page using a programming language.
@@ -188,14 +192,14 @@ const frontendDevelopment:NextPage = () => {
                         <a className={styles.link} target='_blank'>
                         free courses 
                         </a>
-                    </Link> available on youtube to get you started while if you learn better having a guidiance then you can <Link href='/register'>
+                    </Link> available on youtube to get you started but if you learn better having a mentor then you can <Link href='/register'>
                         <a className={styles.link} target='_blank'>
                         register 
                         </a>
-                    </Link> to our bootcamps as we offer both Onsite and Online training to get you started from scratch.
+                    </Link> to our bootcamp as we offer both Onsite and Online training to get you started from scratch.
                 </p>
                 <h2 className={styles.tertiaryHeader}>
-                    Who is an junior-level /mid-senior developer?
+                    Who is a junior-level /mid-senior developer?
                 </h2 >
                 <p className={styles.paragraph}>
                     A junior developer can be referred to a person with 2 or more years of experience tied to his/her resume. He/she is familiar with one programming language and his able to implement a semi-stable solution to a problem.
@@ -205,7 +209,7 @@ const frontendDevelopment:NextPage = () => {
                     Despite their passion and unending desire to grow their career, they are still under close supervision of a senior developer who checkmate them time to time. 
                 </p>
                 <h2 className={styles.tertiaryHeader}>
-                    Who is an senior-level developer?
+                    Who is an senior developer?
                 </h2 >
                 <p className={styles.paragraph}>
                     A senior developer is a developer with a deep knownledge, with years of experiences working with a tool or a programming language and is specialize in solving problems. 
@@ -226,6 +230,12 @@ const frontendDevelopment:NextPage = () => {
                 <p className={styles.paragraph}>
                     Becoming a front-end developer requires the basic knowledge of some tools and Technologies which ranges from <b>HTML, CSS and Javascript.</b> They are often referred to as the language of the web.
                 </p>
+                <Image
+                    src='/images/cssjs.png'
+                    height={150}
+                    width={380}
+                    alt='html css and Javascript'
+                />
                 <p className={styles.paragraph}>
                     Front-end developers are responsible for the implementation of designs and as such needs to be able to know how to structure layouts of web apps using a markup language like HTML.
                 </p>
@@ -257,7 +267,7 @@ const frontendDevelopment:NextPage = () => {
                     It comprises of  elements which consists of opening tag and a closing tag
                 </p>
                 <Image
-                    src='/../public/images/tags.jpg'
+                    src='/images/tags.jpg'
                     height={250}
                     width={600}
                     alt='html elements consist of opening and closing tags'
@@ -326,19 +336,47 @@ const frontendDevelopment:NextPage = () => {
                 <ul>
                     <li><b>Bootstrap</b></li>
                         <p className={styles.paragraph}>
-                            It is one of the most used CSS libraries in the world currently with over 500k forks on github.
-                            It based on components based 
+                            It is one of the most used CSS libraries in the world currently with over 1 Million forks on github.
+                            Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+                        </p>
+                        <p className={`${styles.paragraph} mb-m`}>
+                            Source: <Link href='https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)'>
+                         <a className={styles.link} target='_blank'>
+                         Wikipedia
+                        </a>
+                            </Link> 
                         </p>
                     <li><b>TailwindCSS</b></li>
                         <p className={styles.paragraph}>
-                            It is one of the most used CSS libraries in the world currently with over 500k forks on github.
-                            It based on components based 
+                        Tailwind CSS is becoming a go to option in the last 2 years due to its class base implementation. It works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file. It's fast, flexible, and reliable — with zero-runtime.
+                        </p>
+                        <p className={`${styles.paragraph} mb-m`}>
+                            Source: <Link href='https://tailwindcss.com/docs/installation'>
+                         <a className={styles.link} target='_blank'>
+                         TailwindCSS Documentation
+                        </a>
+                            </Link> 
                         </p>
                     <li><b>MaterialUI</b></li>
                         <p className={styles.paragraph}>
-                            It is one of the most used CSS libraries in the world currently with over 500k forks on github.
-                            It based on components based 
+                        Material UI is an open-source, front-end framework for React components that has 60,500 plus stars on github. It is built using Less. Less (stands for Leaner Style Sheets), is a backward-compatible language extension for CSS. 
                         </p>
+                        <p className={styles.paragraph}>
+                        
+                            Material-UI is simply a library that allows us to import and use different components to create a user interface in our React applications. This saves a significant amount of time since the developers do not need to write everything from scratch.
+                        </p>
+                        <p className={`${styles.paragraph} mb-m`}>
+                            Source: <Link href='https://www.section.io/engineering-education/how-to-implement-material-ui-in-react/'>
+                         <a className={styles.link} target='_blank'>
+                         Section.io 
+                        </a>
+                            </Link>  and <Link href='https://www.educative.io/edpresso/what-is-material-ui-in-react'>
+                         <a className={styles.link} target='_blank'>
+                           Educative.io 
+                        </a>
+                            </Link> 
+                        </p>
+                        
                 </ul>
                 <h3 className={styles.tertiaryHeader}>
                     Git / GitHub
@@ -468,6 +506,7 @@ const frontendDevelopment:NextPage = () => {
                     After the basics of how the internet works, they are introduced to HTML and how to structured their contents using the various HTML tags.
                     They are also taught CSS, Javascript, CSS libraries( TailwindCSS and MaterialUI), React. NextJs, Git and how to consume datas from an API.
                 </p>
+                
                 <p className={styles.paragraph}>
                     You can checkout our <Link href='/about'>
                         <a className={styles.link} target='_blank'>

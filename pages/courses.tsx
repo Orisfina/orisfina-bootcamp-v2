@@ -11,7 +11,7 @@ const courses: NextPage =() => {
           <>
           <Head>
             <title>Our Course | Orisfina Computer Instiute</title>
-            <meta name="description" content="Browse through our array of I.T courses designed to help transform you into an I.T professional" />
+            <meta name="description" content="Enrol now in any of our courses fully designed by experts with a goal of getting you started with ease." />
             <meta name="keywords" content="courses offered at orisfina computer institute, web development training at orisfina computer institute, graphic design training at orisfina computer institute, computer training at orisfina computer institute" />
           </Head>
           <NavBar />
@@ -21,7 +21,7 @@ const courses: NextPage =() => {
                <p>June 4th, 2022 - <Link href='/register' ><a>Apply Now!</a></Link></p>
                <p className='pb-s'>May 25th, 2022  - <Link href='/register' ><a>Apply Now!</a></Link></p>
                <h2 className='t-center pb-s pt-m course_heading main-color'>
-                    Orisifna Computer Institute Teaches the Most In-Demand I.T Skills
+                    Orisfina Computer Institute Teaches the Most In-Demand I.T Skills
                </h2>
                <h3 className='course_sub-heading t-center'>Take a bold step now and Select a course</h3>
                <section className='courses courses-section'>

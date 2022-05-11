@@ -13,7 +13,7 @@ const uIUXDesign: NextPage = () => {
         <>
         <Head>
             <title>UI/UX Design Career Path | Orisfina Computer Instiute</title>
-            <meta name="description" content="What you need to know to become a UI/UX Designer. Enrol now at Orisfina Computer Institute" />
+            <meta name="description" content="Get all you need to become a UI/UX Designer. Join others now in starting a career at Orisfina Computer Institute" />
             <meta name="keywords" content="UI/UX design training centers in Auchi Edo State, UI/UX design training schools in Auchi Edo State" />
           </Head>
         <NavBar />
