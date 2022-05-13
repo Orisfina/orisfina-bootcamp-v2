@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     <Head>
       <title>Become a Web Developer from Scratch with Orisfina Bootcamp</title>
       <meta name="description" content="Acquire the skills needed to become a web developer irrespective of your background. We've got you covered! " />
-      <meta name="keywords" content="Orisfina, Orisfina computer institute, computer schools in Auchi , Web development training, bootcamp in edo state, learn web development, learn graphic design, learn app development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria" />
+      <meta name="keywords" content="Orisfina, Orisfina computer institute, computer schools in Auchi , Web development training, bootcamp in edo state, learn web development, learn graphic design, learn app development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a begineer, website design company in Auchi Edo State, top web design schools in Edo State Nigeria, web designers in Nigeria, coding bootcamp in Nigeria" />
       
     </Head>
     <NavBar />

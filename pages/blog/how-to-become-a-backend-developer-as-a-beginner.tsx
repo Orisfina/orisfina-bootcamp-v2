@@ -13,7 +13,7 @@ const backendDevelopment:NextPage = () => {
     <Head>
         <title>How to become a backend Developer as a beginner | Orisfina Bootcamp</title>
         <meta name="description" content="Backend developers are one of the most sort people in the world with lots of job opportunities. This guide covers everything you need to know about backend developers inorder to get started" />
-        <meta name="keywords" content="Orisfina, Orisfina computer institute, Auchi nigeria, Web development training, bootcamp in edo state, learn web development, coding school, web development school in nigeria, web design school, web development company, free web development training,computer training school in edo state, computer schools in Auchi Edo state, Edo State, learn how to create a website as a beginner, top web design schools in Edo State Nigeria,  backend developer salary in nigeria, how to become a backend developer,how to become a backend developer in 3 months,how to become a backend developer ,backend developer jobs in nigeria,why become a backend developer,can i become a backend developer,what to learn to become a backend developer,what is needed to become a backend developer,why become a backend developer " />
+        <meta name="keywords" content="how to become a backend developer,how to become a good backend developer,what backend developer do, how to become a backend developer in 2022,how to be a better backend developer, what to learn to be a backend developer, what to learn to become a backend developer,what is the work of backend developer,backend development, backend developer " />
         
     </Head>
         <NavBar />
