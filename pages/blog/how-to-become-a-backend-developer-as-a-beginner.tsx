@@ -189,7 +189,7 @@ const backendDevelopment:NextPage = () => {
                     </Link> to our bootcamps as we offer both Onsite and Online training to get you started from scratch.
                 </p>
                 <h2 className={styles.tertiaryHeader}>
-                    Who is an junior-level /mid-senior developer?
+                    Who is a junior-level /mid-senior developer?
                 </h2 >
                 <p className={styles.paragraph}>
                     A junior developer can be referred to a person with 2 or more years of experience tied to his/her resume. He/she is familiar with one programming language and his able to implement a semi-stable solution to a problem.
@@ -199,7 +199,7 @@ const backendDevelopment:NextPage = () => {
                     Despite their passion and unending desire to grow their career, they are still under close supervision of a senior developer who checkmate them time to time. 
                 </p>
                 <h2 className={styles.tertiaryHeader}>
-                    Who is an senior-level developer?
+                    Who is a senior-level developer?
                 </h2 >
                 <p className={styles.paragraph}>
                     A senior developer is a developer with a deep knownledge, with years of experiences working with a tool or a programming language and is specialize in solving problems. 

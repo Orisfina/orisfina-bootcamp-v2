@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                          </div>
                          <div className="text_section">
                               <h3 className="tertiary_text">
-                                   We Provide a helpful roadmap! Get hired, in record time
+                                   We Provide a helpful roadmap to get you started
                               </h3>
                               <p>
                                    Stop wasting time on endless tutorials. 
@@ -64,6 +64,7 @@ const Home: NextPage = () => {
                               </h3>
                               <p>
                               The projects we&apos;ll help you build are professional, real-world apps that will make your portfolio stand out and impress potential employers or execute your ideas.
+                              Our projects are structured from beginners level with a step-by-step paths.
                               </p>
                          </div>
                     </div>

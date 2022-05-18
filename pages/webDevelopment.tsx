@@ -55,33 +55,30 @@ const WebDevelopment: NextPage = () => {
     
         <h2 className='subHeading mt-l'>What is the Back-End Developer role ?</h2>
         <p className='pt-s'>
-            Back-end developers are in charge of creating 
-            dynamic websites using a programming language. 
-            They take care of the front-end part, i.e. the visual
-            side of the site, unlike the back-end developer.
+        A back-end web developer is responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers.
         </p>
         <Image src={backend} alt='What is the Back-End Developer role ' className='backend-img mt-s mb-l' />
 
         <h3 className='pb-s'>A Back-end developer’s missions typically entails:</h3>
         <ul className='mb-s'>
-            <li>- Understanding the project they’re working on to develop the most satisfying features and interfaces for their client.
+            <li>- Integration of user-facing elements developed by a front-end developers with server side logic
             </li>
             <li>
-                 - Implementing mockups with a keen eye for detail and rigorous standards.
+                 - Optimization of the application for maximum speed and scalability
             </li>
             <li>
-                - Using best practices to structure HTML, CSS and Javascript code.
+                - Implementation of security and data protection
             </li>
             <li>
-                 - Using frameworks such as React to build powerful and modular applications.
+                 - Design and implementation of data storage solutions
             </li>
             <li>
                 - Using tests to monitor their applications and ensure the highest quality service.
             </li>
             <li> 
-               - Providing technical and functional documentation of the site for their clients and colleagues.
+               - Creating database schemas that represent and support business processes
             </li>
-            <li>- Optimizing page load time.</li>
+            <li>- Building reusable code and libraries for future use</li>
         </ul>
             <Button link='/register' cName='course_btn p-xy mr-s'>Apply Now! </Button>
             <Button link='/blog/how-to-become-a-backend-developer-as-a-beginner' cName='course_btn p-xy '>MORE ABOUT  BACKEND ROLE</Button>

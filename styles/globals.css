@@ -6,6 +6,14 @@
 1400 - 1800px: Desktop Large
 1800px + --- Desktop xLarge
 */
+
+/* ROOT */
+/* VARIABLES */
+:root{
+  --primary-color: #F45D01;
+  --secondary-color: #0088cc;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -215,13 +223,13 @@ p {
   color: #0088cc; }
 
 .bc-primary-color {
-  background-color: #0088cc;
+  background-color: var(--secondary-color);
   color: #000D0E; }
 
 .primary-color {
-  color: #0088cc; }
+  color: var(--primary-color) }
 .secondary-color{
-  color: #F45D01;
+  color: var(--secondary-color);
 }
 .t-justify {
   text-align: justify; }
@@ -247,6 +255,10 @@ p {
 .bold {
   font-weight: bold; }
 
+  .disabled{
+    cursor: not-allowed;
+      pointer-events: none;   
+  }
 .pb-s {
   padding-bottom: 2rem; }
 
