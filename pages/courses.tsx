@@ -48,8 +48,8 @@ const courses: NextPage =() => {
                               <h2 className='course_title'>UI/UX Design</h2>
                          </div>
                          <p className='mb-s'>
-                              You will learn the fundamentals of structuring a webpage layout using HTML5 and CSS3 so that you can create responsive and beautifulwebsitesfrom scratch. This course will also teach you everything you need to know about Javascript and take you from Zero to Hero. Our Advanced class will cover technologies such as React, Sass, Bootstrap, Git and PHP for building full web
-                              applications.
+                              The UX designer’s job is to stand between all that code and the human beings that have to use it. This is because they care about human-centered design.
+                              The UX course is a 8-week (part-time) program that prepares you for entry-level work in the field of UX Design. In the UX design bootcamp, you’ll learn about research, prototyping, information architecture, and how to design websites and applications.
                          </p>
                          <Button cName='btn blog_btn inline-block' link='/uIUXDesign'>Know More</Button>
                     </div>
