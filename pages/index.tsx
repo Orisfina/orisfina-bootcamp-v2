@@ -35,7 +35,7 @@ const Home: NextPage = () => {
            <section className="light container why-section">
                 <h2 className=' primary__text pb-m'>
                 Why Orisfina Bootcamp is the <span className="block_on_desktop">
-                    <span className='secondary-color'>best place</span> for you
+                    <span className='primary-color'>best place</span> for you
                </span>
                 </h2>
                 <div className="grid2">
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
 
            {/* What you will be Building Section */}
            <section className="light container clip-bg">
-           <h2 className='primary__text primary__text2 pb-l t-center'>What you will be <span className='secondary-color'> building</span></h2>
+           <h2 className='primary__text primary__text2 pb-l t-center'>What you will be <span className='primary-color'> building</span></h2>
            <ProjectBox  />
            </section>
 
@@ -100,7 +100,7 @@ const Home: NextPage = () => {
                <div className='grid2 grid1-on-tab'>
                      <div className="text-section a-item">
                          <h2 className="primary__text primary__text2 pb-s">
-                         <span className='secondary-color'> Distance</span> is no longer a barrier anymore 
+                         <span className='primary-color'> Distance</span> is no longer a barrier anymore 
                          </h2> 
                          <h3>We offer Online and Onsite Training just to suit your Schedule</h3>
                           <p className='t-left pt-s'>

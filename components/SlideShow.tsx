@@ -8,7 +8,7 @@ const SlideShow = () => {
          <div className="grid23">
               <div className="text">
                    <h1 className="slideshow__title">
-                   Become a <span className="secondary-color">Web Developer</span> or <span className="secondary-color">Graphic Designer</span> in 12 weeks. 
+                   Become a <span className="primary-color">Web Developer</span> or <span className="primary-color">Graphic Designer</span> in 12 weeks. 
                    </h1>
                    <p className="slideshow__desc">
                    
