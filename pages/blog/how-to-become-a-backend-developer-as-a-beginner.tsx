@@ -75,7 +75,7 @@ const backendDevelopment:NextPage = () => {
                               salaryexplorer 
                         </a>
                     </Link> which was derived from both employer job postings and third party data sources.
-                    A backend developer in Nigeria earns between <b>145,000 NGN</b> to <b>500,000 NGN </b> upwards depending on your level of experience.
+                    A backend developer in Nigeria earns between <b>245,000 NGN</b> to <b>600,000 NGN </b> upwards depending on your level of experience.
                 </p>
                 <h3 className={styles.tertiaryHeader}>
                     What is the Average Salary of a backend Developer in Nigeria?
@@ -95,22 +95,22 @@ const backendDevelopment:NextPage = () => {
                         <tr>
                             <td className={styles.tableData}>1</td>
                             <td className={styles.tableData}>0-1 (Entry level)</td>
-                            <td className={styles.tableData}>145,000 NGN +</td>
+                            <td className={styles.tableData}>245,000 NGN +</td>
                         </tr>
                         <tr>
                             <td className={styles.tableData}>2</td>
                             <td className={styles.tableData}>2-3 (Junior-level)</td>
-                            <td className={styles.tableData}>250,000 NGN +</td>
+                            <td className={styles.tableData}>350,000 NGN +</td>
                         </tr>
                         <tr>
                             <td className={styles.tableData}>3</td>
                             <td className={styles.tableData}>3-5 (Mid-level Developer)</td>
-                            <td className={styles.tableData}>350,000 NGN + </td>
+                            <td className={styles.tableData}>450,000 NGN + </td>
                         </tr>
                         <tr>
                             <td className={styles.tableData}>4</td>
                             <td className={styles.tableData}>5years and above (Senior level)</td>
-                            <td className={styles.tableData}>500,000 NGN + </td>
+                            <td className={styles.tableData}>700,000 NGN + </td>
                         </tr>
                     </tbody>
                 </table>
@@ -158,7 +158,8 @@ const backendDevelopment:NextPage = () => {
                 </p>
                 <p className={styles.paragraph}>
                     It is advisable to learn how to negotiate during this phase of your job hunt. You can go through our step by step guide on <Link href='/'>
-                        <a className={styles.link} target='_blank'>
+                        <a className={styles.link} target='_blank
+                        '>
                         how to negotiate your salary 
                         </a>
                     </Link>  when interviewing with a company.
@@ -214,17 +215,33 @@ const backendDevelopment:NextPage = () => {
                     They lead a project and makes well-reasoned decisions about software design and implementation based on the knowledge of the best practices in the field.
                 </p>
                 <h2 className={styles.secondaryHeader}>
-                    What are the Technologies needed to be a backend Developer?
+                    What do I need to know to be a backend Developer?
                 </h2>
                 <p className={styles.paragraph}>
-                    Becoming a backend developer requires the basic knowledge of some tools and Technologies which ranges from <b>HTML, CSS and Javascript.</b> They are often referred to as the language of the web.
+                    Becoming a backend developer requires the basic knowledge of:
                 </p>
+                <ol className={`{styles.paragraph} pl-s`}>
+                    <li className={styles.paragraph}>
+                        A Backend programming language (e.g PHP, Python, C++) or runtime environment (NodeJs) used in communicating with database and others 
+                    </li>
+                    <li className={styles.paragraph}>
+                        Basics of Database - (Relational database such as MySQL) or Non-relational Database (MongoDB)
+                    </li>
+                    <li className={styles.paragraph}>
+                        Security / Authentication 
+                    </li>
+                    <li className={styles.paragraph}>
+                        Server
+                    </li>
+                    <li className={styles.paragraph}>
+                        API
+                    </li>
+                    <li className={styles.paragraph}>
+                        Data structure and Algorithm
+                    </li>
+                </ol>
                 <p className={styles.paragraph}>
-                    Backend developers are responsible for the implementation of designs and as such needs to be able to know how to structure layouts of web apps using a markup language like HTML.
-                </p>
-                <p className={styles.paragraph}>
-                    To be a backend developer, you also need to learn how to style your application using a styling language such as CSS.
-                    Javascript is also needed for manipulating how your components such as button, navbar etc reacts to users actions. 
+                   
                 </p>
                </div> 
         </article>

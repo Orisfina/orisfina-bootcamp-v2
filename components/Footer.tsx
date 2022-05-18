@@ -60,7 +60,7 @@ import Link from 'next/link'
                         <Link href='/blog/how-to-become-a-frontend-developer-as-a-beginner'><a className='subFooter__link'>&gt; Frontend Web Development</a></Link>
 						</li>
 						<li className="subFooter__list">
-                            <Link href='/blog/backend-web-development-career' ><a className='subFooter__link'> &gt; Backend Web Development</a></Link>
+                            <Link href='/blog/how-to-become-a-backend-developer-as-a-beginner' ><a className='subFooter__link'> &gt; Backend Web Development</a></Link>
 						</li>
 						<li className="subFooter__list">
 							<Link href='/graphicDesignCareer' ><a className='subFooter__link'> &gt; Graphic Design</a></Link>

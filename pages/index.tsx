@@ -45,10 +45,12 @@ const Home: NextPage = () => {
                          </div>
                          <div className="text_section">
                               <h3 className="tertiary_text">
-                                   We Provide a helpful roadmap
+                                   We Provide a helpful roadmap! Get hired, in record time
                               </h3>
                               <p>
-                                   Like a career advisor, we guide you through each step. You’ll learn the right thing at the right time. Our Councillors are always available to get you track at all times
+                                   Stop wasting time on endless tutorials. 
+                                   Like a career advisor, we guide you through each step. You’ll learn the right thing at the right time.
+                                   Our step-by-step Career Paths give you an exact roadmap to go from any background to getting hired. No CS degree required.
                               </p>
                          </div>
                           </div>
@@ -61,7 +63,7 @@ const Home: NextPage = () => {
                                    We Provide Practical Experience
                               </h3>
                               <p>
-                                   Gain practical experience as you go by creating portfolio-worthy projects that will help you land your next job or execute your ideas
+                              The projects we'll help you build are professional, real-world apps that will make your portfolio stand out and impress potential employers or execute your ideas.
                               </p>
                          </div>
                     </div>
@@ -97,7 +99,7 @@ const Home: NextPage = () => {
                <div className='grid2 grid1-on-tab'>
                      <div className="text-section a-item">
                          <h2 className="primary__text primary__text2 pb-s">
-                         <span className='primary-color'> Distance</span> is no longer a barrier anymore 
+                         <span className='secondary-color'> Distance</span> is no longer a barrier anymore 
                          </h2> 
                          <h3>We offer Online and Onsite Training just to suit your Schedule</h3>
                           <p className='t-left pt-s'>

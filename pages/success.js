@@ -1,7 +1,6 @@
-import type { NextPage } from 'next'
 import Button from '../components/Button'
 
-const success:NextPage = () => {
+const success = () => {
   return (
     <>
    

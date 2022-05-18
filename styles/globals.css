@@ -194,6 +194,8 @@ p {
     .container {
       padding: 0 12rem; } }
 
+
+      /* UTILITIES */
 .t-center {
   text-align: center; }
 
@@ -254,6 +256,15 @@ p {
 .pb-l {
   padding-bottom: 6rem; }
 
+  
+.pl-s {
+  padding-left: 2rem; }
+
+.pl-m {
+  padding-left: 4rem; }
+
+.pl-l {
+  padding-left: 6rem; }
 .pt-s {
   padding-top: 2rem; }
 
@@ -317,6 +328,8 @@ p {
   @media (min-width: 75em) {
     .t-center-mobile {
       text-align: left; } }
+
+      /* END OF UTILITIES CLASSES */
 
 .pattern {
   background-color: #f8f3ff;
@@ -500,7 +513,17 @@ p {
     color: #000000;
     padding-top: 6rem;
   text-align: center; }
-    @media (min-width: 23.88em) {
+  @media (max-height:560px) {
+    .slideshow__title {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      padding-bottom: 2rem;
+      color: #000000;
+      padding-top: 13rem;
+    text-align: center; }
+  }
+    @media (min-width: 23.88em) and (min-height:560px){
       .slideshow__title {
         font-size: 3.9rem;
         padding-top: 18rem; }
@@ -1620,6 +1643,7 @@ ul {
   margin-top: 5rem; }
 
 .course-header {
+  font-size: 3rem;
   color: #002D30;
   line-height: 4rem; }
 
