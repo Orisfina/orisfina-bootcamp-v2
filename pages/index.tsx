@@ -63,7 +63,7 @@ const Home: NextPage = () => {
                                    We Provide Practical Experience
                               </h3>
                               <p>
-                              The projects we'll help you build are professional, real-world apps that will make your portfolio stand out and impress potential employers or execute your ideas.
+                              The projects we&apos;ll help you build are professional, real-world apps that will make your portfolio stand out and impress potential employers or execute your ideas.
                               </p>
                          </div>
                     </div>
