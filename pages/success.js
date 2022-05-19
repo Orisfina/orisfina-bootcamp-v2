@@ -1,9 +1,17 @@
 import Button from '../components/Button'
+import Footer from '../components/Footer'
+import NavBar from '../components/NavBar'
+import Head from 'next/head'
 
 const success = () => {
   return (
     <>
-   
+     <Head>
+            <title>Registration Successful | Orisfina Computer Instiute</title>
+            <meta name="description" content="Thank you for registering at Orisfina Computer Institute. Our team will get back to you" />
+            <meta name="keywords" content="registration for free web design training, free web design training, free web development training " />
+      </Head>
+    <NavBar />
         <div className='container-large success'>
             <h2 className='primary-text t-center pb-s'>Registration Successful !</h2>
             <p className="t-center">
@@ -14,6 +22,7 @@ const success = () => {
             <h4>We love you!</h4>
             <Button cName='btn blog_btn inline-block center' link='/'>Return Home</Button>
         </div>
+        <Footer />
     </>
     
   )

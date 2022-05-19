@@ -3,7 +3,7 @@ import React from 'react'
 export default function RegistrationForm() {
   return (
     <>
-       <form action="/success" method="post" name="Registration-Form" data-netlify="true" data-netlify-honeypot="bot-field">
+       <form action="/success" method="post" name="Registration-Form" autoComplete='off' data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="Registration-Form" />
                     <div className='form-group'>
                      <label htmlFor='fName' className='form-label'> First Name  </label>
@@ -39,6 +39,13 @@ export default function RegistrationForm() {
                           <option value="Application Package">Application Package</option>
                           <option value="Mobile App Development">Mobile App Development</option>
                           <option value="Mobile App Development">Hardware Engineering</option>
+                          </select>
+                   </div>
+                   <div className='form-group'>
+                        <label className='form-label' htmlFor='courses'>Are you a Student?:</label>
+                          <select name="student-status" id="student-status">
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
                           </select>
                    </div>
                    <div className='form-group'>
