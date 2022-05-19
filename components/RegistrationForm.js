@@ -3,7 +3,8 @@ import React from 'react'
 export default function RegistrationForm() {
   return (
     <>
-    <form name='Registration' method='POST' action='/success' data-netlify="true">
+    <form name='Registration' method='POST'  data-netlify="true">
+      
                    <div className='form-group'>
                      <label htmlFor='email' className='form-label'> Email </label>
                      <input type='email' name='email' className='group-field' id='email' required />
