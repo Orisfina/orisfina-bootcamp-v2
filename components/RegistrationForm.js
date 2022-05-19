@@ -42,7 +42,7 @@ export default function RegistrationForm() {
                           </select>
                    </div>
                    <div className='form-group'>
-                        <label className='form-label' htmlFor='courses'>Are you a Student?:</label>
+                        <label className='form-label' htmlFor='student-status'>Are you a Student?:</label>
                           <select name="student-status" id="student-status">
                           <option value="Yes">Yes</option>
                           <option value="No">No</option>
