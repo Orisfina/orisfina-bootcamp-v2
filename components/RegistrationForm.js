@@ -3,22 +3,21 @@ import React from 'react'
 export default function RegistrationForm() {
   return (
     <>
-    <form name='Registration-form' method='POST' action='/success' data-netlify="true">
-              <input type="hidden" name="form-name" value="Registration-Form" />
+    <form name='Registration' method='POST' action='/success' data-netlify="true">
                    <div className='form-group'>
-                     <label className='form-label'> Email </label>
-                     <input type='email' name='email' className='group-field' required />
+                     <label htmlFor='email' className='form-label'> Email </label>
+                     <input type='email' name='email' className='group-field' id='email' required />
                    </div>
                    <div className='form-group'>
-                     <label className='form-label'> Fullnames </label>
-                     <input type='text' name='fullnames' className='group-field' required />
+                     <label className='form-label' htmlFor='fullnames'> Fullnames </label>
+                     <input type='text' name='fullnames' className='group-field' id='fullnames' required />
                    </div>
                    <div className='form-group'>
-                     <label className='form-label'> Phone </label>
-                     <input type='tel' name='phone' className='group-field' required />
+                     <label className='form-label' htmlFor='phone'> Phone </label>
+                     <input type='tel' name='phone' className='group-field' id='phone' required />
                    </div>
                    <div className='form-group'>
-                          <label className='form-label'> Sex:</label>
+                          <label className='form-label' htmlFor='sex'> Sex:</label>
                           <label htmlFor="male">Male</label> 
                           <input type="radio" id="male" name="sex" value="Male" />
                           <label htmlFor="css" className='ml-s'>Female</label>
