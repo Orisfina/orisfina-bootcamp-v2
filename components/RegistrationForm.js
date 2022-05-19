@@ -4,7 +4,7 @@ export default function RegistrationForm() {
   return (
     <>
     <form name='Registration-form' method='POST' action='/success' data-netlify="true">
-              <input type="hidden" name="form-name" value="Registration Form" />
+              <input type="hidden" name="form-name" value="Registration-Form" />
                    <div className='form-group'>
                      <label className='form-label'> Email </label>
                      <input type='email' name='email' className='group-field' required />

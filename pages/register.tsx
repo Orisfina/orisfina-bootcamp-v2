@@ -13,7 +13,7 @@ import signup from '../public/images/signup.svg'
     <Head>
             <title>Registration Portal | Orisfina Computer Instiute</title>
             <meta name="description" content="Join thousands of others in starting a career today with our up-to-date syllabus with 100% practical approach. Enrol now!" />
-            <meta name="keywords" content="registration for free web design training, free web design training, free web development training" />
+            <meta name="keywords" content="registration for free web design training, free web design training, free web development training " />
           </Head>
     <NavBar />
     <SlideshowShort title='Registration Form' color1='KINDLY FILL THE FORM WITH THE APPROPRIATE DETAILS'/> 
