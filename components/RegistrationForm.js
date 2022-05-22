@@ -49,6 +49,13 @@ export default function RegistrationForm() {
                           </select>
                    </div>
                    <div className='form-group'>
+                        <label className='form-label' htmlFor='haveLaptop'>Do you have a Laptop or one you can lend?:</label>
+                          <select name="haveLaptop" id="haveLaptop">
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </select>
+                   </div>
+                   <div className='form-group'>
                         <input type='submit' className='btn btn_signup mt-m' value='Sign Up' />
                    </div>
               </form>
