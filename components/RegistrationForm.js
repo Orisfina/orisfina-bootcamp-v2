@@ -7,11 +7,11 @@ export default function RegistrationForm() {
                     <input type="hidden" name="form-name" value="Registration-Form" />
                     <div className='form-group'>
                      <label htmlFor='fName' className='form-label'> First Name  </label>
-                     <input type='text' id='fName' name='fName' className='group-field' data-type="text"  required />
+                     <input type='text' id='fName' name='firstname' className='group-field' data-type="text"  required />
                    </div>
                    <div className='form-group'>
                      <label htmlFor='lName' className='form-label'> Last Name </label>
-                     <input type='text' id='lName' name='last-name' className='group-field' data-type="text"  required />
+                     <input type='text' id='lastname' name='last-name' className='group-field' data-type="text"  required />
                    </div>
                    <div className='form-group'>
                      <label className='form-label' htmlFor='email' name='email'> Email </label>
@@ -20,7 +20,7 @@ export default function RegistrationForm() {
                    
                    <div className='form-group'>
                      <label className='form-label' htmlFor='phone'> Phone </label>
-                     <input type='tel' name='phone' className='group-field' data-type="text"  required />
+                     <input type='number' name='phone' className='group-field' data-type="number"  maxLength={12} min={0}  required />
                    </div>
                    <div className='form-group'>
                           <label className='form-label' htmlFor='sex'> Sex:</label>
@@ -31,26 +31,26 @@ export default function RegistrationForm() {
                    </div>
                    <div className='form-group'>
                         <label className='form-label' htmlFor='courses'>Select Course:</label>
-                          <select name="courses" id="courses">
-                          <option value="Frontend Web Development">Frontend Web Development</option>
-                          <option value="Backend Web Development">Backend Web Development</option>
-                          <option value="Full-stack Development">Full-Stack Development</option>
-                          <option value="Graphics Design">Graphics Design</option>
+                          <select name="course" id="courses">
+                          <option value="Front-end Development">Frontend Web Development</option>
+                          <option value="Backend Development">Backend Web Development</option>
+                          <option value="Full-Stack Enginneer">Full-Stack Development</option>
+                          <option value="Graphic Design">Graphics Design</option>
                           <option value="Application Package">Application Package</option>
                           <option value="Mobile App Development">Mobile App Development</option>
                           <option value="Mobile App Development">Hardware Engineering</option>
                           </select>
                    </div>
                    <div className='form-group'>
-                        <label className='form-label' htmlFor='student-status'>Are you a Student?:</label>
-                          <select name="student-status" id="student-status">
+                        <label className='form-label' htmlFor='studentStatus'>Are you a Student?:</label>
+                          <select name="studentStatus" id="studentStatus">
                           <option value="Yes">Yes</option>
                           <option value="No">No</option>
                           </select>
                    </div>
                    <div className='form-group'>
                         <label className='form-label' htmlFor='haveLaptop'>Do you have a Laptop or one you can lend?:</label>
-                          <select name="haveLaptop" id="haveLaptop">
+                          <select name="laptopStatus" id="haveLaptop">
                           <option value="Yes">Yes</option>
                           <option value="No">No</option>
                           </select>

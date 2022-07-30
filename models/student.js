@@ -32,7 +32,7 @@ const StudentSchema = new mongoose.Schema({
         required: true,
 	    enum: {
         values:[
-            'Front-end Development', 'Backend Development','Full-Stack Engineer', 'Desktop Publishing', 'Graphic Design'
+            'Front-end Development', 'Backend Development','Full-Stack Engineer', 'Desktop Publishing', 'Graphic Design', 'Application Package', 'Mobile App Development','Mobile App Development'
         ], 
         message:  '{VALUE} is not supported'}
     },
