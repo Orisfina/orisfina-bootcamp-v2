@@ -21,7 +21,7 @@ export default async function handler(req,res) {
 //UPDATE A COURSES
   if(method === 'PATCH'){
    try{
-    const updateCourse = await course.findByIdAndUpdate(id, req.body);
+    const updateCourse = await course.findByIdAndUpdate(id, req.body,{new:true});
     res.status(201).json('Course successfully Updated');
   }
    catch(err){
