@@ -53,6 +53,9 @@ const StudentSchema = new mongoose.Schema({
                 values:['Yes', 'No'], message:  '{VALUE} is not supported'
             }
     },
+    passport:{
+        type:String
+    },
 },{timestamps:true});   
 
 export default mongoose.model('Student');
