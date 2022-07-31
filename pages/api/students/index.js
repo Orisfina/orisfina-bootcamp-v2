@@ -14,7 +14,7 @@ export default async function handler(req,res) {
       const newStudent = await user.find({});
       res.status(201).json(newStudent);
     } catch (error) {
-      res.status(500).json(error)
+      res.status(500).json(error.message)
     }
   }
   
