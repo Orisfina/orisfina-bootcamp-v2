@@ -16,10 +16,17 @@ const StudentSchema = new mongoose.Schema({
         type: String,
         required: true,
         maxLength: 200,
+        unique:true,
+    },
+    password:{
+        type: String,
+        required: true,
+        maxLength: 200,
     },
     phone: {
         type: Number,
         required: true,
+        unique:true,
     },
     sex: {
         type: String,
@@ -32,7 +39,7 @@ const StudentSchema = new mongoose.Schema({
         required: true,
 	    enum: {
         values:[
-            'Front-end Development', 'Backend Development','Full-Stack Engineer', 'Desktop Publishing', 'Graphic Design', 'Application Package', 'Mobile App Development','Mobile App Development'
+            'Front-end Development', 'Backend Development','Full-Stack Enginneer', 'Desktop Publishing', 'Graphic Design', 'Application Package', 'Mobile App Development','Mobile App Development'
         ], 
         message:  '{VALUE} is not supported'}
     },

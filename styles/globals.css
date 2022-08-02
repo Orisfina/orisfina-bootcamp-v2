@@ -1347,7 +1347,7 @@ p {
   font-weight: 800;
   text-decoration: none;
   transition: color 0.3s ease-out;
-  padding: 1rem .5rem;
+  margin: 1rem .5rem;
   text-transform: uppercase;
   text-align: center; }
 

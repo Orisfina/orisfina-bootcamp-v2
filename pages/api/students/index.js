@@ -1,6 +1,6 @@
 import user from '../../../models/student';
 import dbConnect from '../../../util/dbConect';
-
+const bycrpt= require('bcrypt')
 
 export default async function handler(req,res) {
 
@@ -12,7 +12,7 @@ export default async function handler(req,res) {
   if(method=== 'GET'){
     try {
       const newStudent = await user.find({});
-      res.status(201).json(newStudent);
+      res.status(200).json(newStudent);
     } catch (error) {
       res.status(500).json(error.message)
     }
@@ -20,12 +20,53 @@ export default async function handler(req,res) {
   
   //ADD NEW STUDENT
   if(method ==='POST'){
+
+    if(req.body.password.length < 5){
+      return res.json({
+        status: 'error', 
+        message:'Password is too Short! Should be atleast 6 Characters'
+      })
+    }
+
+
+    //Destructuring the req.body
+    const {firstname, lastname,email, password, phone, sex, course, studentStatus, address, laptopStatus, passport} = req.body;
+
+    //Encrpting Password before inserting into DB
+    const hashedPassword = await bycrpt.hash(password, 10);
+
+    const newUser ={
+        firstname: firstname,
+        lastname: lastname,
+        email: email,
+        password: hashedPassword,
+        phone: phone,
+        sex: sex,
+        course: course,
+        studentStatus: studentStatus,
+        address: address,
+        laptopStatus:laptopStatus,
+        passport: passport
+    }
+
    try{
-      const newUser = await user.create(req.body);
-      res.status(201).json(newUser);
+      const response = await user.create(newUser);
+      res.status(201).json({status: "okay", response});
   }
+
    catch(err){
-	res.status(400).json(err.message);
+    if(err.code === 11000 ){
+      res.status(401).json(
+        {
+          status: "Error", 
+          message: `Email or Phone number already exists. Try again!`
+        }
+        );
+    }
+     res.status(402).json({
+      status: "Error",
+      message: err.message
+     });
   }
 }
 }

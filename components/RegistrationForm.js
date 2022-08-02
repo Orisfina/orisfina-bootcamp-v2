@@ -3,7 +3,7 @@ import React from 'react'
 export default function RegistrationForm() {
   return (
     <>
-       <form action="/success" method="post" name="Registration-Form" autoComplete='off' data-netlify="true" data-netlify-honeypot="bot-field">
+       <form action="/api/students" method="post" name="Registration-Form" autoComplete='off' data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="Registration-Form" />
                     <div className='form-group'>
                      <label htmlFor='fName' className='form-label'> First Name  </label>
@@ -11,11 +11,16 @@ export default function RegistrationForm() {
                    </div>
                    <div className='form-group'>
                      <label htmlFor='lName' className='form-label'> Last Name </label>
-                     <input type='text' id='lastname' name='last-name' className='group-field' data-type="text"  required />
+                     <input type='text' id='lastname' name='lastname' className='group-field' data-type="text"  required />
                    </div>
                    <div className='form-group'>
                      <label className='form-label' htmlFor='email' name='email'> Email </label>
                      <input type='email' name='email' className='group-field' placeholder="example@email.com" id='email' data-type="text"  required />
+                   </div>
+
+                   <div className='form-group'>
+                     <label className='form-label' htmlFor='password' name='password'> Password </label>
+                     <input type='password' name='password' className='group-field' placeholder="enter your password..." id='password' data-type="text"  required />
                    </div>
                    
                    <div className='form-group'>
