@@ -44,10 +44,10 @@ export default function RegistrationForm() {
       });
       const data = await response.json();
       console.log(data);
-      if(data.status === 200 && data.success === true){
+     /*  if(data.status === 200 && data.success === true){
         return router.push('/success'); 
       }
-     setRegistrationError("An Error Occured, Try Again!");
+     setRegistrationError(data.message); */
     }
     catch(err){
       console.log(err);

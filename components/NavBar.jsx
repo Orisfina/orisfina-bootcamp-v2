@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import logoImg from '../public/images/logo-small.svg';
+import { useSelector } from 'react-redux';
+
 
 const NavBar = () => {
     const [isActive, setActive] = useState(false);
@@ -14,6 +16,7 @@ const NavBar = () => {
      const handleToggle = () => {
       setActive(!isActive)
     };
+const username = useSelector(state => state.user.username)
 
     return (
         <>
@@ -44,6 +47,7 @@ const NavBar = () => {
           <Link href="/blog">
                 <a className='nav-item'>Blog</a> 
           </Link>
+          <p className='nav-item'> Hello {username}</p>
     </ul>
    </nav>
    {/* <div className="grad-bar"></div> */}

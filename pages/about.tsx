@@ -6,7 +6,9 @@ import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import SlideshowShort from '../components/SlideshowShort'
 
+
 const About:NextPage = () => {
+
      return (
           <>
           <Head>
@@ -43,3 +45,4 @@ const About:NextPage = () => {
 }
 
 export default About
+

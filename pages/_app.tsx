@@ -2,9 +2,11 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-
+import {store} from '../redux/store';
+import {Provider} from 'react-redux'
 
 function MyApp({ Component, pageProps }: AppProps) {
+
   const router = useRouter();
     useEffect(() => {
     const handleRouteChange = (url: URL) => {
@@ -17,7 +19,14 @@ function MyApp({ Component, pageProps }: AppProps) {
       router.events.off('routeChangeComplete', handleRouteChange);
     }
   }, [router.events]);
-  return <Component {...pageProps} />
+  return (
+      <Provider store={store}>
+        {(pageProps.isAuth) && <Component {...pageProps} />}
+      </Provider>
+    
+
+  )
 }
 
 export default MyApp
+

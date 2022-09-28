@@ -1,7 +1,10 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import { useSelector } from 'react-redux';
 
  const Footer = () => {
     let cYear = new Date().getFullYear();
+
+	const username = useSelector(state=>state.user.username)
   return (
     <>
         <footer className="subFooter container">
@@ -31,6 +34,12 @@ import Link from 'next/link'
 							<i className="fab fa-instagram"></i>
 							<Link href="https://www.instagram.com/joshuaoyewole11/" >
                                 <a className="subFooter__link">Instagram</a>
+                            </Link>
+						</li>
+						<li className="subFooter__list">
+							<i className="fab fa-instagram"></i>
+							<Link href="https://www.instagram.com/joshuaoyewole11/" >
+                                <a className="subFooter__link">{username}</a>
                             </Link>
 						</li>
 					</ul>
