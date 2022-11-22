@@ -7,7 +7,7 @@ import NavBar from '../../../components/NavBar'
 import SlideshowShort from '../../../components/SlideshowShort'
 import axios from "axios"
 
-const index: NextPage = () => {
+const Index: NextPage = () => {
     const [certificateID, setCertificateID] = useState<string>("");
     const [showForm, setShowForm] = useState(true);
     const [modal, setModal] = useState(false);
@@ -69,11 +69,11 @@ const index: NextPage = () => {
             </form>}
             {modal && <div className="modal">
                 <h2 className='tertiary_text'>{msg}</h2>
-                <div><a href="/">Return Home</a></div>
+                <div><Link href="/">Return Home</Link></div>
             </div>}
             <Footer />
         </>
     )
 }
 
-export default index
+export default Index
