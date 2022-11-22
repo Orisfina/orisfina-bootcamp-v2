@@ -46,7 +46,7 @@ const Testimonial = () => {
             <div className="apply-now">
                 <div className="z-indez-high">
                     <h2>What are you still waiting for?</h2>
-                    <p>Application for our 12-weeks bootcamp for all courses starting August 29<sup>th </sup>is now open</p>
+                    <p>Application for our 12-weeks bootcamp for all courses starting December 2022 is now open</p>
                     <Button cName='btn blog_btn inline-block' link='/register'>Enroll Now</Button>
                 </div>
                 <div className="bg-overlay"></div>

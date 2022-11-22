@@ -18,8 +18,8 @@ const courses: NextPage = () => {
                <SlideshowShort title='Our Courses' color1='ONLINE' color2='ONSITE' text1='AND' text2='TRAINING' />
                <main className='course-section container'>
                     <h3 className='pt-m pb-s'>UPCOMING SESSIONS</h3>
-                    <p>July 4th, 2022 - <Link href='/register' ><a>Apply Now!</a></Link></p>
-                    <p className='pb-s'>July 25th, 2022  - <Link href='/register' ><a>Apply Now!</a></Link></p>
+                    <p>December 12th, 2022 - <Link href='/register' ><a>Apply Now!</a></Link></p>
+                    <p className='pb-s'>decisions 19th, 2022  - <Link href='/register' ><a>Apply Now!</a></Link></p>
                     <h2 className='t-center pb-s pt-m course_heading main-color'>
                          Orisfina Computer Institute Teaches the Most In-Demand I.T Skills
                     </h2>
@@ -86,7 +86,7 @@ const courses: NextPage = () => {
                <div className="apply-now">
                     <div className="z-indez-high">
                          <h2>What are you still waiting for?</h2>
-                         <p>Application for our 12-weeks bootcamp for all courses starting July 4<sup>th </sup>is now open</p>
+                         <p>Application for our 12-weeks bootcamp for all courses starting December 5<sup>th </sup>is now open</p>
                          <Button cName='btn blog_btn inline-block' link='/register'>Join Others Now</Button>
                     </div>
                     <div className="bg-overlay"></div>
