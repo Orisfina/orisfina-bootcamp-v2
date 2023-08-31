@@ -5,6 +5,7 @@ import Button from '../components/Button'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import SlideshowShort from '../components/SlideshowShort'
+import CTA from '../components/cta'
 
 const courses: NextPage = () => {
      return (
@@ -18,8 +19,8 @@ const courses: NextPage = () => {
                <SlideshowShort title='Our Courses' color1='ONLINE' color2='ONSITE' text1='AND' text2='TRAINING' />
                <main className='course-section container'>
                     <h3 className='pt-m pb-s'>UPCOMING SESSIONS</h3>
-                    <p>December 12th, 2022 - <Link href='/register' ><a>Apply Now!</a></Link></p>
-                    <p className='pb-s'>decisions 19th, 2022  - <Link href='/register' ><a>Apply Now!</a></Link></p>
+                    <p>September 18th, 2023 - <Link href='/register' ><a>Apply Now!</a></Link></p>
+                    <p className='pb-s'>October 23rd, 2023  - <Link href='/register' ><a>Apply Now!</a></Link></p>
                     <h2 className='t-center pb-s pt-m course_heading main-color'>
                          Orisfina Computer Institute Teaches the Most In-Demand I.T Skills
                     </h2>
@@ -41,7 +42,7 @@ const courses: NextPage = () => {
                               <p className='mb-s'>
                                    Master the fundamental skills needed to design visually appealing designs. In this course, you will be expose to Hands-on projects that will improve your portfolio and increase your chances of landing jobs offers after training. Other fundamentals such as Typography, color-theory, and positioning will be covered extensively.
                               </p>
-                              <Button cName='btn blog_btn inline-block disabled' link='/graphicDesignCareer'>Coming Soon</Button>
+                              <Button cName='btn blog_btn inline-block disabled hide' link='/graphicDesignCareer'>Coming Soon</Button>
                          </div>
                          <div className='course_box'>
                               <div className='icon-title flex'>
@@ -60,7 +61,7 @@ const courses: NextPage = () => {
                               <p className='mb-s'>
                                    Are you a complete begineer or do you desire to advance your knowledge about Microsoft packages (MS Word, MS Excel, MS Access or MS Publisher)?This course gives you all the training needed to increase your typing speed, create beautiful powerpoint slides and also perform calculations in Microsoft Excel. Our Syllabus is tailored to get you going irrespective of who you are.
                               </p>
-                              <Button cName='btn blog_btn inline-block disabled' link='/applicationPackage'>Coming Soon</Button>
+                              <Button cName='btn blog_btn inline-block disabled hide' link='/applicationPackage'>Coming Soon</Button>
                          </div>
                          <div className='course_box'>
                               <div className='icon-title flex'>
@@ -69,7 +70,7 @@ const courses: NextPage = () => {
                               <p className='mb-s'>
                                    Become a mobile app developer with proficiency in all aspects of mobile applications from design to building and publishing apps for iOS and Android using a variety of tools, such as React Native, Java, XCode, and Swift in our 12 weeks bootcamp training irrespective of our current background.
                               </p>
-                              <Button cName='btn blog_btn inline-block disabled' link='/#'>Coming Soon</Button>
+                              <Button cName='btn blog_btn inline-block disabled hide' link='/#'>Coming Soon</Button>
                          </div>
                          <div className='course_box'>
                               <div className='icon-title flex'>
@@ -79,18 +80,11 @@ const courses: NextPage = () => {
                                    Acquire the skills needed to be a computer
                                    Engineer with out practical base Syllabus. You will learn everything needed to troubleshoot a system and understand all the various error codes. You will also learn how to identify various parts of a system, and its functions. What are you waiting for? Classes start soon
                               </p>
-                              <Button cName='btn blog_btn inline-block disabled' link='/#'>Coming Soon</Button>
+                              <Button cName='btn blog_btn inline-block disabled hide' link='/#'>Coming Soon</Button>
                          </div>
                     </section>
                </main>
-               <div className="apply-now">
-                    <div className="z-indez-high">
-                         <h2>What are you still waiting for?</h2>
-                         <p>Application for our 12-weeks bootcamp for all courses starting December 5<sup>th </sup>is now open</p>
-                         <Button cName='btn blog_btn inline-block' link='/register'>Join Others Now</Button>
-                    </div>
-                    <div className="bg-overlay"></div>
-               </div>
+              <CTA />
                {/* <div className='question'>
                <h2 className='primary-header'>Do you have a Question?</h2>
                <h3>We would love to Hear from You</h3>

@@ -5,6 +5,7 @@ import Button from '../components/Button'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import SlideshowShort from '../components/SlideshowShort'
+import CTA from '../components/cta'
 
 const About:NextPage = () => {
      return (
@@ -29,14 +30,7 @@ const About:NextPage = () => {
             </p>
         </main>
         
-    <div className="apply-now">
-        <div className="z-indez-high">
-            <h2>What are you still waiting for?</h2>
-            <p>Application for our 12-weeks bootcamp for all courses starting April 4<sup>th </sup>is now open</p>
-               <Button cName='btn blog_btn inline-block' link='/register'>Enroll Now</Button>
-        </div>
-        <div className="bg-overlay"></div>
-    </div>
+    <CTA />
     <Footer />
           </>
      )
