@@ -1,6 +1,4 @@
-import right from '../public/images/slideshow-new-image.png'
 import Button from './Button';
-import Image from 'next/image'
 
 const SlideShow = () => {
   return (
@@ -8,7 +6,7 @@ const SlideShow = () => {
          <div className="grid23">
               <div className="text">
                    <h1 className="slideshow__title">
-                   Become a <span className="primary-color">Web Developer</span> or <span className="primary-color">Graphic Designer</span> in 12 weeks. 
+                   Become a <span className="primary-color">Web Developer</span> from Scratch in 12 weeks. 
                    </h1>
                    <p className="slideshow__desc">
                    
@@ -17,10 +15,7 @@ const SlideShow = () => {
                    <Button link='/register' cName='btn_register rounded-btn'>Register Now</Button>
                    </div>
               </div>
-              <div className="right">
-                    {/* <Image 
-                         src={right} alt="orisfina computer institute students smiling" className="slideshow__right hide-on-desktop" />  */}
-              </div>
+              <div className="right"></div>
               
          </div>
     </section>
