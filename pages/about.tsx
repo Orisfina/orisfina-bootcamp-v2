@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
-import Button from '../components/Button'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import SlideshowShort from '../components/SlideshowShort'
-import CTA from '../components/CTA'
+import CTA from '../components/Cta'
+
 
 const About:NextPage = () => {
      return (
@@ -30,7 +30,7 @@ const About:NextPage = () => {
             </p>
         </main>
         
-    <CTA />
+<CTA />
     <Footer />
           </>
      )

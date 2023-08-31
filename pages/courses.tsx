@@ -5,7 +5,8 @@ import Button from '../components/Button'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import SlideshowShort from '../components/SlideshowShort'
-import CTA from '../components/cta'
+import CTA from '../components/Cta'
+
 
 const courses: NextPage = () => {
      return (
@@ -84,12 +85,7 @@ const courses: NextPage = () => {
                          </div>
                     </section>
                </main>
-              <CTA />
-               {/* <div className='question'>
-               <h2 className='primary-header'>Do you have a Question?</h2>
-               <h3>We would love to Hear from You</h3>
-          </div>
-              */}
+           <CTA />
                <Footer />
           </>
      )

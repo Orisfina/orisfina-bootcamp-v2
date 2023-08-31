@@ -16,7 +16,7 @@ import blogImg3 from '../public/images/start-freelance-web-design-business.jpg'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar';
 import Courses from '../components/Courses';
-import CTA from '../components/cta';
+import CTA from '../components/Cta';
 
 const Home: NextPage = () => {
      return (
