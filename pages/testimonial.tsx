@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import testimonialImg from '../public/images/betty.jpg'
 import testimonialImg2 from '../public/images/testifier.jpg'
-import CTA from '../components/Cta'
+import CTA from '../components/CTA'
 
 const Testimonial:NextPage = () => {
     return (

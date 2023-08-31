@@ -4,7 +4,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import SlideshowShort from '../components/SlideshowShort'
-import CTA from '../components/Cta'
+import CTA from '../components/CTA'
 
 
 const About:NextPage = () => {
