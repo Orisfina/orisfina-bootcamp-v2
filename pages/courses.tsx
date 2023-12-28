@@ -20,8 +20,8 @@ const courses: NextPage = () => {
                <SlideshowShort title='Our Courses' color1='ONLINE' color2='ONSITE' text1='AND' text2='TRAINING' />
                <main className='course-section container'>
                     <h3 className='pt-m pb-s'>UPCOMING SESSIONS</h3>
-                    <p>September 18th, 2023 - <Link href='/register' ><a>Apply Now!</a></Link></p>
-                    <p className='pb-s'>October 23rd, 2023  - <Link href='/register' ><a>Apply Now!</a></Link></p>
+                    <p>January 29th, 2024 - <Link href='/register' ><a>Apply Now!</a></Link></p>
+                    <p className='pb-s'>February 26th, 2024  - <Link href='/register' ><a>Apply Now!</a></Link></p>
                     <h2 className='t-center pb-s pt-m course_heading main-color'>
                          Orisfina Computer Institute Teaches the Most In-Demand I.T Skills
                     </h2>
