@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/success.js", "components/LoginForm.ts", "components/CTA.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/success.js", "components/LoginForm.ts", "components/CTA.tsx", "pages/makePayment.jsx", "components/PaymentForm.jsx"],
   "exclude": ["node_modules"]
 }
