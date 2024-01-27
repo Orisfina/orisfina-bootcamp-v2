@@ -43,7 +43,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
 
-          <Script src="https://checkout.flutterwave.com/v3.js"></Script>
+          <script src="https://checkout.flutterwave.com/v3.js" async />
         </body>
       </Html>
     )
