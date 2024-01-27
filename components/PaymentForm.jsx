@@ -8,7 +8,7 @@ export default function PaymentForm() {
   });
 
   //handle email and Password change Event
-  const handleChange = () => {
+  const handleChange = (e) => {
     setDetails({
       ...details,
       [e.currentTarget.name]: e.currentTarget.value,
