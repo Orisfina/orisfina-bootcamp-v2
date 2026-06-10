@@ -22,12 +22,12 @@ const freeTraining: NextPage = () => {
                         <form
                             action="/success"
                             method="post"
-                            name="Free Training 2024"
+                            name="Free Training 2026"
                             autoComplete="off"
                             data-netlify="true"
                             data-netlify-honeypot="bot-field"
                         >
-                            <input type="hidden" name="form-name" value="Free Training 2024" />
+                            <input type="hidden" name="form-name" value="Free Training 2026" />
                             <div className="form-group">
                                 <label htmlFor="fName" className="form-label">
                                     {" "}

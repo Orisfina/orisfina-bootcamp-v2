@@ -5,7 +5,7 @@ export default function CTA() {
     <div className="apply-now">
       <div className="z-indez-high">
         <h2>What are you still waiting for?</h2>
-        <p>Application for our 12-weeks bootcamp for all courses starting January 22<sup>nd</sup>, 2024 is now open</p>
+        <p>Application for our 12-weeks bootcamp for all courses starting August 2<sup>nd</sup>, 2026 is now open</p>
         <Button cName='btn blog_btn inline-block' link='/register'>Enroll Now</Button>
       </div>
       <div className="bg-overlay"></div>
